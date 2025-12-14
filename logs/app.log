@@ -1,0 +1,1679 @@
+2025-12-13 18:18:52.257 [main] INFO  Main - Запуск приложения Анализатор файловой системы
+2025-12-13 18:18:52.272 [main] DEBUG Main - Аргументы командной строки: []
+2025-12-13 18:18:52.273 [main] INFO  Main - === Информация о системе ===
+2025-12-13 18:18:52.273 [main] INFO  Main - Версия Java: 16.0.2
+2025-12-13 18:18:52.273 [main] INFO  Main - Вендор Java: Oracle Corporation
+2025-12-13 18:18:52.273 [main] INFO  Main - Директория Java: C:\Program Files\Java\jdk-16.0.2
+2025-12-13 18:18:52.273 [main] INFO  Main - ОС: Windows 10 10.0
+2025-12-13 18:18:52.274 [main] INFO  Main - Архитектура: amd64
+2025-12-13 18:18:52.274 [main] INFO  Main - Имя пользователя: Admin
+2025-12-13 18:18:52.275 [main] INFO  Main - Рабочая директория: C:\Users\Admin\IdeaProjects\FileSystemAnalyzer
+2025-12-13 18:18:52.275 [main] INFO  Main - Домашняя директория: C:\Users\Admin
+2025-12-13 18:18:52.275 [main] INFO  Main - Доступно процессоров: 44
+2025-12-13 18:18:52.275 [main] INFO  Main - Максимальная память: 8172 MB
+2025-12-13 18:18:52.276 [main] INFO  Main - Всего памяти: 512 MB
+2025-12-13 18:18:52.276 [main] INFO  Main - Свободная память: 498 MB
+2025-12-13 18:18:52.276 [main] INFO  Main - Кодировка файлов: UTF-8
+2025-12-13 18:18:52.276 [main] INFO  Main - === Конец информации о системе ===
+2025-12-13 18:18:52.276 [main] INFO  Main - Установка системного Look and Feel
+2025-12-13 18:18:52.410 [main] DEBUG Main - Look and Feel успешно установлен: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2025-12-13 18:18:52.410 [main] INFO  Main - Проверка доступности файловой системы
+2025-12-13 18:18:52.414 [main] INFO  Main - Найдено 2 доступных дисков:
+2025-12-13 18:18:52.415 [main] INFO  Main -   Диск: C:\
+2025-12-13 18:18:52.417 [main] INFO  Main -     Всего места: 930,88 GB
+2025-12-13 18:18:52.417 [main] INFO  Main -     Свободно: 780,45 GB (83,8%)
+2025-12-13 18:18:52.418 [main] INFO  Main -     Использовано: 150,43 GB
+2025-12-13 18:18:52.418 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:18:52.418 [main] INFO  Main -   Диск: D:\
+2025-12-13 18:18:52.419 [main] INFO  Main -     Всего места: 1863,01 GB
+2025-12-13 18:18:52.419 [main] INFO  Main -     Свободно: 724,94 GB (38,9%)
+2025-12-13 18:18:52.420 [main] INFO  Main -     Использовано: 1138,07 GB
+2025-12-13 18:18:52.420 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:18:52.420 [main] INFO  Main - Запуск графического интерфейса в потоке EDT
+2025-12-13 18:18:52.422 [main] INFO  Main - Инициализация приложения завершена, GUI запущен
+2025-12-13 18:18:52.423 [AWT-EventQueue-0] DEBUG Main - Создание главного окна приложения
+2025-12-13 18:18:52.744 [AWT-EventQueue-0] DEBUG FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:18:52.954 [AWT-EventQueue-0] INFO  Main - Главное окно успешно создано и отображено
+2025-12-13 18:18:52.955 [AWT-EventQueue-0] DEBUG Main - Размер окна: 1200x800, Позиция: 360,125
+2025-12-13 18:18:56.413 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Получение статистики для директории: C:\
+2025-12-13 18:18:56.415 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Рекурсивный обход директории C:\
+2025-12-13 18:18:59.651 [SwingWorker-pool-4-thread-2] INFO  FileSystemScanner - Начало сканирования директории: C:\
+2025-12-13 18:18:59.653 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Директория C:\ существует, начинаем сканирование
+2025-12-13 18:18:59.653 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\$Recycle.Bin
+2025-12-13 18:18:59.655 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\$Recycle.Bin
+2025-12-13 18:18:59.656 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Dev-Cpp
+2025-12-13 18:18:59.656 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Dev-Cpp
+2025-12-13 18:18:59.657 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Documents and Settings
+2025-12-13 18:18:59.657 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Documents and Settings
+2025-12-13 18:18:59.658 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\DumpStack.log.tmp
+2025-12-13 18:18:59.658 [SwingWorker-pool-4-thread-2] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\DumpStack.log.tmp - C:\DumpStack.log.tmp: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:18:59.659 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\DumpStack.log.tmp
+2025-12-13 18:18:59.659 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\for discord
+2025-12-13 18:18:59.660 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\for discord
+2025-12-13 18:18:59.660 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\hiberfil.sys
+2025-12-13 18:18:59.661 [SwingWorker-pool-4-thread-2] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\hiberfil.sys - C:\hiberfil.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:18:59.661 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\hiberfil.sys
+2025-12-13 18:18:59.661 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Intel
+2025-12-13 18:18:59.662 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Intel
+2025-12-13 18:18:59.662 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\MSOCache
+2025-12-13 18:18:59.662 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\MSOCache
+2025-12-13 18:18:59.663 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\pagefile.sys
+2025-12-13 18:18:59.663 [SwingWorker-pool-4-thread-2] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\pagefile.sys - C:\pagefile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:18:59.664 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\pagefile.sys
+2025-12-13 18:18:59.665 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\PerfLogs
+2025-12-13 18:18:59.665 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\PerfLogs
+2025-12-13 18:18:59.666 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files
+2025-12-13 18:18:59.666 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files
+2025-12-13 18:18:59.667 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files (x86)
+2025-12-13 18:18:59.667 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files (x86)
+2025-12-13 18:18:59.667 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\ProgramData
+2025-12-13 18:18:59.668 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\ProgramData
+2025-12-13 18:18:59.668 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Recovery
+2025-12-13 18:18:59.668 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Recovery
+2025-12-13 18:18:59.669 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\sqlite
+2025-12-13 18:18:59.669 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\sqlite
+2025-12-13 18:18:59.669 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\SQLiteLab
+2025-12-13 18:18:59.670 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\SQLiteLab
+2025-12-13 18:18:59.670 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\swapfile.sys
+2025-12-13 18:18:59.670 [SwingWorker-pool-4-thread-2] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\swapfile.sys - C:\swapfile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:18:59.671 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\swapfile.sys
+2025-12-13 18:18:59.671 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\System Volume Information
+2025-12-13 18:18:59.671 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\System Volume Information
+2025-12-13 18:18:59.672 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users
+2025-12-13 18:18:59.672 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users
+2025-12-13 18:18:59.672 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:18:59.673 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:18:59.673 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:18:59.674 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:18:59.674 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Windows
+2025-12-13 18:18:59.674 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Windows
+2025-12-13 18:18:59.674 [SwingWorker-pool-4-thread-2] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 22, с ошибками: 0, всего: 22
+2025-12-13 18:19:07.130 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Начало сканирования директории: C:\Users\Admin
+2025-12-13 18:19:07.131 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Директория C:\Users\Admin существует, начинаем сканирование
+2025-12-13 18:19:07.132 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE
+2025-12-13 18:19:07.133 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE
+2025-12-13 18:19:07.133 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.cisco
+2025-12-13 18:19:07.134 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.cisco
+2025-12-13 18:19:07.134 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.gradle
+2025-12-13 18:19:07.135 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.gradle
+2025-12-13 18:19:07.135 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.vscode
+2025-12-13 18:19:07.135 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.vscode
+2025-12-13 18:19:07.135 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\3D Objects
+2025-12-13 18:19:07.136 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\3D Objects
+2025-12-13 18:19:07.136 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\AppData
+2025-12-13 18:19:07.136 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\AppData
+2025-12-13 18:19:07.136 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Application Data
+2025-12-13 18:19:07.137 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Application Data
+2025-12-13 18:19:07.137 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\BrawlhallaReplays
+2025-12-13 18:19:07.138 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\BrawlhallaReplays
+2025-12-13 18:19:07.138 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Contacts
+2025-12-13 18:19:07.138 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Contacts
+2025-12-13 18:19:07.139 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Cookies
+2025-12-13 18:19:07.139 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Cookies
+2025-12-13 18:19:07.139 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Desktop
+2025-12-13 18:19:07.140 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Desktop
+2025-12-13 18:19:07.140 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Documents
+2025-12-13 18:19:07.141 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Documents
+2025-12-13 18:19:07.141 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Downloads
+2025-12-13 18:19:07.141 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Downloads
+2025-12-13 18:19:07.141 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Favorites
+2025-12-13 18:19:07.142 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Favorites
+2025-12-13 18:19:07.142 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\IdeaProjects
+2025-12-13 18:19:07.142 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\IdeaProjects
+2025-12-13 18:19:07.142 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Links
+2025-12-13 18:19:07.143 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Links
+2025-12-13 18:19:07.143 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Local Settings
+2025-12-13 18:19:07.144 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Local Settings
+2025-12-13 18:19:07.144 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Music
+2025-12-13 18:19:07.144 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Music
+2025-12-13 18:19:07.144 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\mydb
+2025-12-13 18:19:07.145 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\mydb
+2025-12-13 18:19:07.145 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NetHood
+2025-12-13 18:19:07.146 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NetHood
+2025-12-13 18:19:07.146 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT
+2025-12-13 18:19:07.146 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT
+2025-12-13 18:19:07.146 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\ntuser.dat.LOG1
+2025-12-13 18:19:07.147 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\ntuser.dat.LOG1
+2025-12-13 18:19:07.147 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\ntuser.dat.LOG2
+2025-12-13 18:19:07.148 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\ntuser.dat.LOG2
+2025-12-13 18:19:07.148 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+2025-12-13 18:19:07.148 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+2025-12-13 18:19:07.148 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+2025-12-13 18:19:07.149 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+2025-12-13 18:19:07.149 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+2025-12-13 18:19:07.150 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+2025-12-13 18:19:07.150 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+2025-12-13 18:19:07.150 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+2025-12-13 18:19:07.150 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+2025-12-13 18:19:07.151 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+2025-12-13 18:19:07.151 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+2025-12-13 18:19:07.152 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+2025-12-13 18:19:07.152 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+2025-12-13 18:19:07.152 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+2025-12-13 18:19:07.152 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\ntuser.ini
+2025-12-13 18:19:07.153 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\ntuser.ini
+2025-12-13 18:19:07.153 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\OneDrive
+2025-12-13 18:19:07.154 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\OneDrive
+2025-12-13 18:19:07.154 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Pictures
+2025-12-13 18:19:07.154 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Pictures
+2025-12-13 18:19:07.154 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\PrintHood
+2025-12-13 18:19:07.155 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\PrintHood
+2025-12-13 18:19:07.155 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Recent
+2025-12-13 18:19:07.155 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Recent
+2025-12-13 18:19:07.156 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Saved Games
+2025-12-13 18:19:07.156 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Saved Games
+2025-12-13 18:19:07.156 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Searches
+2025-12-13 18:19:07.157 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Searches
+2025-12-13 18:19:07.157 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\SendTo
+2025-12-13 18:19:07.157 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\SendTo
+2025-12-13 18:19:07.157 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Videos
+2025-12-13 18:19:07.158 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Videos
+2025-12-13 18:19:07.158 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\главное меню
+2025-12-13 18:19:07.159 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\главное меню
+2025-12-13 18:19:07.159 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Мои документы
+2025-12-13 18:19:07.159 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Мои документы
+2025-12-13 18:19:07.160 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Шаблоны
+2025-12-13 18:19:07.160 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Шаблоны
+2025-12-13 18:19:07.160 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 42, с ошибками: 0, всего: 42
+2025-12-13 18:27:52.471 [Thread-0] INFO  Main - Приложение завершает работу
+2025-12-13 18:27:56.611 [main] INFO  Main - Запуск приложения Анализатор файловой системы
+2025-12-13 18:27:56.625 [main] DEBUG Main - Аргументы командной строки: []
+2025-12-13 18:27:56.626 [main] INFO  Main - === Информация о системе ===
+2025-12-13 18:27:56.626 [main] INFO  Main - Версия Java: 16.0.2
+2025-12-13 18:27:56.626 [main] INFO  Main - Вендор Java: Oracle Corporation
+2025-12-13 18:27:56.627 [main] INFO  Main - Директория Java: C:\Program Files\Java\jdk-16.0.2
+2025-12-13 18:27:56.627 [main] INFO  Main - ОС: Windows 10 10.0
+2025-12-13 18:27:56.627 [main] INFO  Main - Архитектура: amd64
+2025-12-13 18:27:56.627 [main] INFO  Main - Имя пользователя: Admin
+2025-12-13 18:27:56.628 [main] INFO  Main - Рабочая директория: C:\Users\Admin\IdeaProjects\FileSystemAnalyzer
+2025-12-13 18:27:56.628 [main] INFO  Main - Домашняя директория: C:\Users\Admin
+2025-12-13 18:27:56.629 [main] INFO  Main - Доступно процессоров: 44
+2025-12-13 18:27:56.629 [main] INFO  Main - Максимальная память: 8172 MB
+2025-12-13 18:27:56.629 [main] INFO  Main - Всего памяти: 512 MB
+2025-12-13 18:27:56.630 [main] INFO  Main - Свободная память: 498 MB
+2025-12-13 18:27:56.630 [main] INFO  Main - Кодировка файлов: UTF-8
+2025-12-13 18:27:56.630 [main] INFO  Main - === Конец информации о системе ===
+2025-12-13 18:27:56.631 [main] INFO  Main - Установка системного Look and Feel
+2025-12-13 18:27:56.763 [main] DEBUG Main - Look and Feel успешно установлен: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2025-12-13 18:27:56.763 [main] INFO  Main - Проверка доступности файловой системы
+2025-12-13 18:27:56.767 [main] INFO  Main - Найдено 2 доступных дисков:
+2025-12-13 18:27:56.768 [main] INFO  Main -   Диск: C:\
+2025-12-13 18:27:56.770 [main] INFO  Main -     Всего места: 930,88 GB
+2025-12-13 18:27:56.771 [main] INFO  Main -     Свободно: 780,44 GB (83,8%)
+2025-12-13 18:27:56.771 [main] INFO  Main -     Использовано: 150,44 GB
+2025-12-13 18:27:56.772 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:27:56.772 [main] INFO  Main -   Диск: D:\
+2025-12-13 18:27:56.773 [main] INFO  Main -     Всего места: 1863,01 GB
+2025-12-13 18:27:56.773 [main] INFO  Main -     Свободно: 724,94 GB (38,9%)
+2025-12-13 18:27:56.774 [main] INFO  Main -     Использовано: 1138,07 GB
+2025-12-13 18:27:56.774 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:27:56.774 [main] INFO  Main - Запуск графического интерфейса в потоке EDT
+2025-12-13 18:27:56.777 [main] INFO  Main - Инициализация приложения завершена, GUI запущен
+2025-12-13 18:27:56.779 [AWT-EventQueue-0] DEBUG Main - Создание главного окна приложения
+2025-12-13 18:27:57.112 [AWT-EventQueue-0] INFO  MainFrame - Инициализация главного окна приложения
+2025-12-13 18:27:57.114 [AWT-EventQueue-0] DEBUG FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:27:57.114 [AWT-EventQueue-0] DEBUG MainFrame - Инициализация компонентов интерфейса
+2025-12-13 18:27:57.153 [AWT-EventQueue-0] DEBUG MainFrame - Поле пути установлено на: C:\Users\Admin
+2025-12-13 18:27:57.199 [AWT-EventQueue-0] DEBUG MainFrame - Дерево файлов инициализировано
+2025-12-13 18:27:57.202 [AWT-EventQueue-0] DEBUG MainFrame - Область информации инициализирована
+2025-12-13 18:27:57.202 [AWT-EventQueue-0] DEBUG MainFrame - Настройка компоновки интерфейса
+2025-12-13 18:27:57.203 [AWT-EventQueue-0] DEBUG MainFrame - Верхняя панель с кнопками создана
+2025-12-13 18:27:57.225 [AWT-EventQueue-0] DEBUG MainFrame - Центральная панель с разделителем создана
+2025-12-13 18:27:57.226 [AWT-EventQueue-0] DEBUG MainFrame - Размер окна установлен: 1200x800
+2025-12-13 18:27:57.226 [AWT-EventQueue-0] DEBUG MainFrame - Настройка обработчиков событий
+2025-12-13 18:27:57.229 [AWT-EventQueue-0] DEBUG MainFrame - Обработчики событий успешно настроены
+2025-12-13 18:27:57.230 [AWT-EventQueue-0] INFO  MainFrame - Загрузка списка корневых дисков
+2025-12-13 18:27:57.230 [AWT-EventQueue-0] INFO  MainFrame - Найдено 2 дисков
+2025-12-13 18:27:57.231 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: C:\ (Локальный диск)
+2025-12-13 18:27:57.231 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: D:\ (Локальный диск)
+2025-12-13 18:27:57.253 [AWT-EventQueue-0] INFO  MainFrame - Модель дерева дисков создана
+2025-12-13 18:27:57.253 [AWT-EventQueue-0] INFO  MainFrame - Главное окно успешно создано
+2025-12-13 18:27:57.341 [AWT-EventQueue-0] INFO  Main - Главное окно успешно создано и отображено
+2025-12-13 18:27:57.342 [AWT-EventQueue-0] DEBUG Main - Размер окна: 1200x800, Позиция: 360,125
+2025-12-13 18:27:59.606 [AWT-EventQueue-0] INFO  MainFrame - Нажата кнопка 'Обновить'
+2025-12-13 18:27:59.606 [AWT-EventQueue-0] INFO  MainFrame - Обновление дерева файлов
+2025-12-13 18:27:59.606 [AWT-EventQueue-0] DEBUG MainFrame - Область информации очищена
+2025-12-13 18:27:59.606 [AWT-EventQueue-0] INFO  MainFrame - Загрузка списка корневых дисков
+2025-12-13 18:27:59.607 [AWT-EventQueue-0] INFO  MainFrame - Найдено 2 дисков
+2025-12-13 18:27:59.607 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: C:\ (Локальный диск)
+2025-12-13 18:27:59.607 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: D:\ (Локальный диск)
+2025-12-13 18:27:59.608 [AWT-EventQueue-0] INFO  MainFrame - Модель дерева дисков создана
+2025-12-13 18:27:59.609 [AWT-EventQueue-0] INFO  MainFrame - Дерево файлов успешно обновлено. Текущий путь: C:\Users\Admin
+2025-12-13 18:28:05.448 [AWT-EventQueue-0] DEBUG MainFrame - Раскрытие папки: C:\ (Локальный диск)
+2025-12-13 18:28:05.448 [AWT-EventQueue-0] DEBUG MainFrame - Загрузка содержимого папки: C:\ (Локальный диск)
+2025-12-13 18:28:05.451 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Начало сканирования директории: C:\
+2025-12-13 18:28:05.452 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Директория C:\ существует, начинаем сканирование
+2025-12-13 18:28:05.453 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\$Recycle.Bin
+2025-12-13 18:28:05.455 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\$Recycle.Bin
+2025-12-13 18:28:05.456 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Dev-Cpp
+2025-12-13 18:28:05.456 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Dev-Cpp
+2025-12-13 18:28:05.456 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Documents and Settings
+2025-12-13 18:28:05.457 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Documents and Settings
+2025-12-13 18:28:05.457 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\DumpStack.log.tmp
+2025-12-13 18:28:05.458 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\DumpStack.log.tmp - C:\DumpStack.log.tmp: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:28:05.459 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\DumpStack.log.tmp
+2025-12-13 18:28:05.459 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\for discord
+2025-12-13 18:28:05.460 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\for discord
+2025-12-13 18:28:05.460 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\hiberfil.sys
+2025-12-13 18:28:05.461 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\hiberfil.sys - C:\hiberfil.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:28:05.461 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\hiberfil.sys
+2025-12-13 18:28:05.461 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Intel
+2025-12-13 18:28:05.462 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Intel
+2025-12-13 18:28:05.462 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\MSOCache
+2025-12-13 18:28:05.463 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\MSOCache
+2025-12-13 18:28:05.463 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\pagefile.sys
+2025-12-13 18:28:05.464 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\pagefile.sys - C:\pagefile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:28:05.464 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\pagefile.sys
+2025-12-13 18:28:05.464 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\PerfLogs
+2025-12-13 18:28:05.465 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\PerfLogs
+2025-12-13 18:28:05.465 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files
+2025-12-13 18:28:05.466 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files
+2025-12-13 18:28:05.466 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files (x86)
+2025-12-13 18:28:05.467 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files (x86)
+2025-12-13 18:28:05.467 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\ProgramData
+2025-12-13 18:28:05.468 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\ProgramData
+2025-12-13 18:28:05.468 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Recovery
+2025-12-13 18:28:05.468 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Recovery
+2025-12-13 18:28:05.469 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\sqlite
+2025-12-13 18:28:05.469 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\sqlite
+2025-12-13 18:28:05.469 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\SQLiteLab
+2025-12-13 18:28:05.470 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\SQLiteLab
+2025-12-13 18:28:05.470 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\swapfile.sys
+2025-12-13 18:28:05.471 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\swapfile.sys - C:\swapfile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:28:05.471 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\swapfile.sys
+2025-12-13 18:28:05.471 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\System Volume Information
+2025-12-13 18:28:05.472 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\System Volume Information
+2025-12-13 18:28:05.472 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users
+2025-12-13 18:28:05.472 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users
+2025-12-13 18:28:05.472 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:28:05.473 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:28:05.473 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:28:05.474 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:28:05.474 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Windows
+2025-12-13 18:28:05.474 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Windows
+2025-12-13 18:28:05.474 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 22, с ошибками: 0, всего: 22
+2025-12-13 18:28:05.490 [AWT-EventQueue-0] DEBUG MainFrame - Загружено 22 элементов из папки C:\ (Локальный диск)
+2025-12-13 18:28:05.515 [AWT-EventQueue-0] INFO  MainFrame - Содержимое папки 'C:\ (Локальный диск)' успешно загружено (22 элементов)
+2025-12-13 18:28:06.065 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: C:\ (Локальный диск)
+2025-12-13 18:28:06.065 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: C:\ (Локальный диск)
+2025-12-13 18:28:06.065 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: C:\ (Локальный диск)
+2025-12-13 18:28:06.066 [SwingWorker-pool-4-thread-2] INFO  FileSystemScanner - Получение статистики для директории: C:\
+2025-12-13 18:28:06.067 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Рекурсивный обход директории C:\
+2025-12-13 18:28:06.187 [AWT-EventQueue-0] ERROR MainFrame - Ошибка при расчете статистики папки C:\ (Локальный диск): java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+java.util.concurrent.ExecutionException: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613) ~[?:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.done(MainFrame.java:428) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847) ~[?:?]
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857) ~[?:?]
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:310) ~[?:?]
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:242) ~[?:?]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:87) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+Caused by: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:533) ~[?:?]
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:476) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.next(FileTreeWalker.java:373) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:94) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+2025-12-13 18:28:18.530 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: Program Files (x86)
+2025-12-13 18:28:18.531 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: Program Files (x86)
+2025-12-13 18:28:18.531 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: Program Files (x86)
+2025-12-13 18:28:18.532 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Получение статистики для директории: C:\Program Files (x86)
+2025-12-13 18:28:18.533 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Рекурсивный обход директории C:\Program Files (x86)
+2025-12-13 18:28:21.152 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Статистика собрана. Файлов: 22152, Папок: 1830, Общий размер: 19006531146 байт, Недоступно: 0
+2025-12-13 18:28:21.154 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - DirectoryStats создан: размер=19006531146, файлы=22152, папки=1830
+2025-12-13 18:28:21.227 [AWT-EventQueue-0] DEBUG MainFrame - Статистика рассчитана: файлов=22152, папок=1830, размер=19006531146 байт
+2025-12-13 18:28:21.230 [AWT-EventQueue-0] DEBUG MainFrame - Информация о папке обновлена в интерфейсе
+2025-12-13 18:28:26.886 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: ProgramData
+2025-12-13 18:28:26.887 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: ProgramData
+2025-12-13 18:28:26.887 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: ProgramData
+2025-12-13 18:28:26.888 [SwingWorker-pool-4-thread-4] INFO  FileSystemScanner - Получение статистики для директории: C:\ProgramData
+2025-12-13 18:28:26.889 [SwingWorker-pool-4-thread-4] DEBUG FileSystemScanner - Рекурсивный обход директории C:\ProgramData
+2025-12-13 18:28:26.928 [AWT-EventQueue-0] ERROR MainFrame - Ошибка при расчете статистики папки ProgramData: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\ProgramData\Application Data
+java.util.concurrent.ExecutionException: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\ProgramData\Application Data
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613) ~[?:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.done(MainFrame.java:428) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847) ~[?:?]
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857) ~[?:?]
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:310) ~[?:?]
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:242) ~[?:?]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\ProgramData\Application Data
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:87) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+Caused by: java.nio.file.AccessDeniedException: C:\ProgramData\Application Data
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:533) ~[?:?]
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:476) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.next(FileTreeWalker.java:373) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:83) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+2025-12-13 18:28:28.142 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: Recovery
+2025-12-13 18:28:28.142 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: Recovery
+2025-12-13 18:28:28.142 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: Recovery
+2025-12-13 18:28:28.143 [SwingWorker-pool-4-thread-5] INFO  FileSystemScanner - Получение статистики для директории: C:\Recovery
+2025-12-13 18:28:28.144 [SwingWorker-pool-4-thread-5] DEBUG FileSystemScanner - Рекурсивный обход директории C:\Recovery
+2025-12-13 18:28:28.146 [SwingWorker-pool-4-thread-5] INFO  FileSystemScanner - Статистика собрана. Файлов: 2, Папок: 1, Общий размер: 2957 байт, Недоступно: 0
+2025-12-13 18:28:28.146 [SwingWorker-pool-4-thread-5] DEBUG FileSystemScanner - DirectoryStats создан: размер=2957, файлы=2, папки=1
+2025-12-13 18:28:28.192 [AWT-EventQueue-0] DEBUG MainFrame - Статистика рассчитана: файлов=2, папок=1, размер=2957 байт
+2025-12-13 18:28:28.194 [AWT-EventQueue-0] DEBUG MainFrame - Информация о папке обновлена в интерфейсе
+2025-12-13 18:28:29.313 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: SQLiteLab
+2025-12-13 18:28:29.314 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: SQLiteLab
+2025-12-13 18:28:29.314 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: SQLiteLab
+2025-12-13 18:28:29.315 [SwingWorker-pool-4-thread-6] INFO  FileSystemScanner - Получение статистики для директории: C:\SQLiteLab
+2025-12-13 18:28:29.316 [SwingWorker-pool-4-thread-6] DEBUG FileSystemScanner - Рекурсивный обход директории C:\SQLiteLab
+2025-12-13 18:28:29.316 [SwingWorker-pool-4-thread-6] INFO  FileSystemScanner - Статистика собрана. Файлов: 1, Папок: 0, Общий размер: 8192 байт, Недоступно: 0
+2025-12-13 18:28:29.317 [SwingWorker-pool-4-thread-6] DEBUG FileSystemScanner - DirectoryStats создан: размер=8192, файлы=1, папки=0
+2025-12-13 18:28:29.352 [AWT-EventQueue-0] DEBUG MainFrame - Статистика рассчитана: файлов=1, папок=0, размер=8192 байт
+2025-12-13 18:28:29.353 [AWT-EventQueue-0] DEBUG MainFrame - Информация о папке обновлена в интерфейсе
+2025-12-13 18:28:36.553 [AWT-EventQueue-0] INFO  MainFrame - Нажата кнопка 'Обновить'
+2025-12-13 18:28:36.553 [AWT-EventQueue-0] INFO  MainFrame - Обновление дерева файлов
+2025-12-13 18:28:36.554 [AWT-EventQueue-0] DEBUG MainFrame - Область информации очищена
+2025-12-13 18:28:36.554 [AWT-EventQueue-0] INFO  MainFrame - Загрузка списка корневых дисков
+2025-12-13 18:28:36.554 [AWT-EventQueue-0] INFO  MainFrame - Найдено 2 дисков
+2025-12-13 18:28:36.555 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: C:\ (Локальный диск)
+2025-12-13 18:28:36.555 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: D:\ (Локальный диск)
+2025-12-13 18:28:36.555 [AWT-EventQueue-0] INFO  MainFrame - Модель дерева дисков создана
+2025-12-13 18:28:36.556 [AWT-EventQueue-0] INFO  MainFrame - Дерево файлов успешно обновлено. Текущий путь: C:\Users\Admin
+2025-12-13 18:28:39.033 [AWT-EventQueue-0] INFO  MainFrame - Нажата кнопка 'Сканировать'
+2025-12-13 18:28:39.034 [AWT-EventQueue-0] INFO  MainFrame - Начало сканирования директории: C:\Users\Admin
+2025-12-13 18:28:39.035 [AWT-EventQueue-0] DEBUG MainFrame - Установлен курсор ожидания, кнопка сканирования отключена
+2025-12-13 18:28:39.037 [SwingWorker-pool-4-thread-7] DEBUG MainFrame - Фоновое сканирование директории: C:\Users\Admin
+2025-12-13 18:28:39.037 [SwingWorker-pool-4-thread-7] INFO  FileSystemScanner - Начало сканирования директории: C:\Users\Admin
+2025-12-13 18:28:39.038 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Директория C:\Users\Admin существует, начинаем сканирование
+2025-12-13 18:28:39.038 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE
+2025-12-13 18:28:39.039 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE
+2025-12-13 18:28:39.039 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.cisco
+2025-12-13 18:28:39.040 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.cisco
+2025-12-13 18:28:39.040 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.gradle
+2025-12-13 18:28:39.040 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.gradle
+2025-12-13 18:28:39.040 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.vscode
+2025-12-13 18:28:39.042 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.vscode
+2025-12-13 18:28:39.042 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\3D Objects
+2025-12-13 18:28:39.042 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\3D Objects
+2025-12-13 18:28:39.042 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\AppData
+2025-12-13 18:28:39.042 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\AppData
+2025-12-13 18:28:39.042 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Application Data
+2025-12-13 18:28:39.043 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Application Data
+2025-12-13 18:28:39.043 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\BrawlhallaReplays
+2025-12-13 18:28:39.043 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\BrawlhallaReplays
+2025-12-13 18:28:39.044 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Contacts
+2025-12-13 18:28:39.044 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Contacts
+2025-12-13 18:28:39.044 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Cookies
+2025-12-13 18:28:39.045 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Cookies
+2025-12-13 18:28:39.045 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Desktop
+2025-12-13 18:28:39.045 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Desktop
+2025-12-13 18:28:39.046 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Documents
+2025-12-13 18:28:39.046 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Documents
+2025-12-13 18:28:39.046 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Downloads
+2025-12-13 18:28:39.047 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Downloads
+2025-12-13 18:28:39.047 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Favorites
+2025-12-13 18:28:39.047 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Favorites
+2025-12-13 18:28:39.047 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\IdeaProjects
+2025-12-13 18:28:39.048 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\IdeaProjects
+2025-12-13 18:28:39.048 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Links
+2025-12-13 18:28:39.048 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Links
+2025-12-13 18:28:39.048 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Local Settings
+2025-12-13 18:28:39.049 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Local Settings
+2025-12-13 18:28:39.049 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Music
+2025-12-13 18:28:39.049 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Music
+2025-12-13 18:28:39.049 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\mydb
+2025-12-13 18:28:39.050 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\mydb
+2025-12-13 18:28:39.050 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NetHood
+2025-12-13 18:28:39.050 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NetHood
+2025-12-13 18:28:39.051 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT
+2025-12-13 18:28:39.051 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT
+2025-12-13 18:28:39.051 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\ntuser.dat.LOG1
+2025-12-13 18:28:39.051 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\ntuser.dat.LOG1
+2025-12-13 18:28:39.052 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\ntuser.dat.LOG2
+2025-12-13 18:28:39.052 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\ntuser.dat.LOG2
+2025-12-13 18:28:39.052 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+2025-12-13 18:28:39.052 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+2025-12-13 18:28:39.053 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+2025-12-13 18:28:39.053 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+2025-12-13 18:28:39.053 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+2025-12-13 18:28:39.053 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+2025-12-13 18:28:39.053 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+2025-12-13 18:28:39.054 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+2025-12-13 18:28:39.054 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+2025-12-13 18:28:39.055 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+2025-12-13 18:28:39.055 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+2025-12-13 18:28:39.055 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+2025-12-13 18:28:39.055 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+2025-12-13 18:28:39.056 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+2025-12-13 18:28:39.056 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\ntuser.ini
+2025-12-13 18:28:39.056 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\ntuser.ini
+2025-12-13 18:28:39.056 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\OneDrive
+2025-12-13 18:28:39.057 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\OneDrive
+2025-12-13 18:28:39.057 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Pictures
+2025-12-13 18:28:39.057 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Pictures
+2025-12-13 18:28:39.057 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\PrintHood
+2025-12-13 18:28:39.058 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\PrintHood
+2025-12-13 18:28:39.058 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Recent
+2025-12-13 18:28:39.059 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Recent
+2025-12-13 18:28:39.059 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Saved Games
+2025-12-13 18:28:39.059 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Saved Games
+2025-12-13 18:28:39.059 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Searches
+2025-12-13 18:28:39.060 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Searches
+2025-12-13 18:28:39.060 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\SendTo
+2025-12-13 18:28:39.060 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\SendTo
+2025-12-13 18:28:39.060 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Videos
+2025-12-13 18:28:39.061 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Videos
+2025-12-13 18:28:39.061 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\главное меню
+2025-12-13 18:28:39.062 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\главное меню
+2025-12-13 18:28:39.062 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Мои документы
+2025-12-13 18:28:39.063 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Мои документы
+2025-12-13 18:28:39.063 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\Шаблоны
+2025-12-13 18:28:39.063 [SwingWorker-pool-4-thread-7] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\Шаблоны
+2025-12-13 18:28:39.064 [SwingWorker-pool-4-thread-7] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 42, с ошибками: 0, всего: 42
+2025-12-13 18:28:39.084 [AWT-EventQueue-0] INFO  MainFrame - Сканирование завершено. Найдено 42 элементов в C:\Users\Admin
+2025-12-13 18:28:39.084 [AWT-EventQueue-0] DEBUG MainFrame - Отображение 42 элементов в дереве для пути: C:\Users\Admin
+2025-12-13 18:28:39.091 [AWT-EventQueue-0] DEBUG MainFrame - Раскрытие папки: Путь: C:\Users\Admin
+2025-12-13 18:28:39.091 [AWT-EventQueue-0] DEBUG MainFrame - Загрузка содержимого папки: Путь: C:\Users\Admin
+2025-12-13 18:28:39.097 [AWT-EventQueue-0] DEBUG MainFrame - Раскрытие папки: .arduinoIDE
+2025-12-13 18:28:39.097 [AWT-EventQueue-0] DEBUG MainFrame - Загрузка содержимого папки: .arduinoIDE
+2025-12-13 18:28:39.098 [AWT-EventQueue-0] INFO  MainFrame - Дерево обновлено. Папок: 31, Файлов: 11, Общий размер: 11169812 байт
+2025-12-13 18:28:39.098 [SwingWorker-pool-4-thread-8] INFO  FileSystemScanner - Начало сканирования директории: C:\Users\Admin\.arduinoIDE
+2025-12-13 18:28:39.099 [AWT-EventQueue-0] DEBUG MainFrame - Курсор восстановлен, кнопка сканирования включена
+2025-12-13 18:28:39.101 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Директория C:\Users\Admin\.arduinoIDE существует, начинаем сканирование
+2025-12-13 18:28:39.101 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\arduino-cli.yaml
+2025-12-13 18:28:39.102 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\arduino-cli.yaml
+2025-12-13 18:28:39.102 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\globalStorage
+2025-12-13 18:28:39.103 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\globalStorage
+2025-12-13 18:28:39.103 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\localization-cache
+2025-12-13 18:28:39.103 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\localization-cache
+2025-12-13 18:28:39.103 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\logs
+2025-12-13 18:28:39.104 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\logs
+2025-12-13 18:28:39.104 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\pluggable-monitor-settings.json
+2025-12-13 18:28:39.104 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\pluggable-monitor-settings.json
+2025-12-13 18:28:39.104 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\plugin-storage
+2025-12-13 18:28:39.105 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\plugin-storage
+2025-12-13 18:28:39.105 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\recentworkspace.json
+2025-12-13 18:28:39.105 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\recentworkspace.json
+2025-12-13 18:28:39.105 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\settings.json
+2025-12-13 18:28:39.106 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\settings.json
+2025-12-13 18:28:39.106 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users\Admin\.arduinoIDE\workspace-storage
+2025-12-13 18:28:39.107 [SwingWorker-pool-4-thread-8] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users\Admin\.arduinoIDE\workspace-storage
+2025-12-13 18:28:39.107 [SwingWorker-pool-4-thread-8] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 9, с ошибками: 0, всего: 9
+2025-12-13 18:28:39.146 [AWT-EventQueue-0] DEBUG MainFrame - Загружено 9 элементов из папки .arduinoIDE
+2025-12-13 18:28:39.148 [AWT-EventQueue-0] INFO  MainFrame - Содержимое папки '.arduinoIDE' успешно загружено (9 элементов)
+2025-12-13 18:28:40.679 [Thread-0] INFO  Main - Приложение завершает работу
+2025-12-13 18:29:00.503 [main] INFO  Main - Запуск приложения Анализатор файловой системы
+2025-12-13 18:29:00.521 [main] DEBUG Main - Аргументы командной строки: []
+2025-12-13 18:29:00.521 [main] INFO  Main - === Информация о системе ===
+2025-12-13 18:29:00.522 [main] INFO  Main - Версия Java: 16.0.2
+2025-12-13 18:29:00.522 [main] INFO  Main - Вендор Java: Oracle Corporation
+2025-12-13 18:29:00.522 [main] INFO  Main - Директория Java: C:\Program Files\Java\jdk-16.0.2
+2025-12-13 18:29:00.522 [main] INFO  Main - ОС: Windows 10 10.0
+2025-12-13 18:29:00.522 [main] INFO  Main - Архитектура: amd64
+2025-12-13 18:29:00.522 [main] INFO  Main - Имя пользователя: Admin
+2025-12-13 18:29:00.523 [main] INFO  Main - Рабочая директория: C:\Users\Admin\IdeaProjects\FileSystemAnalyzer
+2025-12-13 18:29:00.523 [main] INFO  Main - Домашняя директория: C:\Users\Admin
+2025-12-13 18:29:00.523 [main] INFO  Main - Доступно процессоров: 44
+2025-12-13 18:29:00.523 [main] INFO  Main - Максимальная память: 8172 MB
+2025-12-13 18:29:00.524 [main] INFO  Main - Всего памяти: 512 MB
+2025-12-13 18:29:00.524 [main] INFO  Main - Свободная память: 498 MB
+2025-12-13 18:29:00.524 [main] INFO  Main - Кодировка файлов: UTF-8
+2025-12-13 18:29:00.524 [main] INFO  Main - === Конец информации о системе ===
+2025-12-13 18:29:00.524 [main] INFO  Main - Установка системного Look and Feel
+2025-12-13 18:29:00.651 [main] DEBUG Main - Look and Feel успешно установлен: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2025-12-13 18:29:00.651 [main] INFO  Main - Проверка доступности файловой системы
+2025-12-13 18:29:00.655 [main] INFO  Main - Найдено 2 доступных дисков:
+2025-12-13 18:29:00.655 [main] INFO  Main -   Диск: C:\
+2025-12-13 18:29:00.657 [main] INFO  Main -     Всего места: 930,88 GB
+2025-12-13 18:29:00.658 [main] INFO  Main -     Свободно: 780,44 GB (83,8%)
+2025-12-13 18:29:00.658 [main] INFO  Main -     Использовано: 150,44 GB
+2025-12-13 18:29:00.658 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:29:00.659 [main] INFO  Main -   Диск: D:\
+2025-12-13 18:29:00.659 [main] INFO  Main -     Всего места: 1863,01 GB
+2025-12-13 18:29:00.660 [main] INFO  Main -     Свободно: 724,94 GB (38,9%)
+2025-12-13 18:29:00.660 [main] INFO  Main -     Использовано: 1138,07 GB
+2025-12-13 18:29:00.661 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:29:00.661 [main] INFO  Main - Запуск графического интерфейса в потоке EDT
+2025-12-13 18:29:00.664 [main] INFO  Main - Инициализация приложения завершена, GUI запущен
+2025-12-13 18:29:00.665 [AWT-EventQueue-0] DEBUG Main - Создание главного окна приложения
+2025-12-13 18:29:00.975 [AWT-EventQueue-0] INFO  MainFrame - Инициализация главного окна приложения
+2025-12-13 18:29:00.977 [AWT-EventQueue-0] DEBUG FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:29:00.977 [AWT-EventQueue-0] DEBUG MainFrame - Инициализация компонентов интерфейса
+2025-12-13 18:29:01.015 [AWT-EventQueue-0] DEBUG MainFrame - Поле пути установлено на: C:\Users\Admin
+2025-12-13 18:29:01.055 [AWT-EventQueue-0] DEBUG MainFrame - Дерево файлов инициализировано
+2025-12-13 18:29:01.058 [AWT-EventQueue-0] DEBUG MainFrame - Область информации инициализирована
+2025-12-13 18:29:01.058 [AWT-EventQueue-0] DEBUG MainFrame - Настройка компоновки интерфейса
+2025-12-13 18:29:01.058 [AWT-EventQueue-0] DEBUG MainFrame - Верхняя панель с кнопками создана
+2025-12-13 18:29:01.082 [AWT-EventQueue-0] DEBUG MainFrame - Центральная панель с разделителем создана
+2025-12-13 18:29:01.083 [AWT-EventQueue-0] DEBUG MainFrame - Размер окна установлен: 1200x800
+2025-12-13 18:29:01.083 [AWT-EventQueue-0] DEBUG MainFrame - Настройка обработчиков событий
+2025-12-13 18:29:01.085 [AWT-EventQueue-0] DEBUG MainFrame - Обработчики событий успешно настроены
+2025-12-13 18:29:01.086 [AWT-EventQueue-0] INFO  MainFrame - Загрузка списка корневых дисков
+2025-12-13 18:29:01.086 [AWT-EventQueue-0] INFO  MainFrame - Найдено 2 дисков
+2025-12-13 18:29:01.087 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: C:\ (Локальный диск)
+2025-12-13 18:29:01.087 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: D:\ (Локальный диск)
+2025-12-13 18:29:01.105 [AWT-EventQueue-0] INFO  MainFrame - Модель дерева дисков создана
+2025-12-13 18:29:01.105 [AWT-EventQueue-0] INFO  MainFrame - Главное окно успешно создано
+2025-12-13 18:29:01.190 [AWT-EventQueue-0] INFO  Main - Главное окно успешно создано и отображено
+2025-12-13 18:29:01.191 [AWT-EventQueue-0] DEBUG Main - Размер окна: 1200x800, Позиция: 360,125
+2025-12-13 18:29:03.993 [AWT-EventQueue-0] DEBUG MainFrame - Раскрытие папки: C:\ (Локальный диск)
+2025-12-13 18:29:03.993 [AWT-EventQueue-0] DEBUG MainFrame - Загрузка содержимого папки: C:\ (Локальный диск)
+2025-12-13 18:29:03.996 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Начало сканирования директории: C:\
+2025-12-13 18:29:03.998 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Директория C:\ существует, начинаем сканирование
+2025-12-13 18:29:03.999 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\$Recycle.Bin
+2025-12-13 18:29:04.001 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\$Recycle.Bin
+2025-12-13 18:29:04.002 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Dev-Cpp
+2025-12-13 18:29:04.002 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Dev-Cpp
+2025-12-13 18:29:04.002 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Documents and Settings
+2025-12-13 18:29:04.003 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Documents and Settings
+2025-12-13 18:29:04.004 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\DumpStack.log.tmp
+2025-12-13 18:29:04.005 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\DumpStack.log.tmp - C:\DumpStack.log.tmp: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:29:04.005 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\DumpStack.log.tmp
+2025-12-13 18:29:04.006 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\for discord
+2025-12-13 18:29:04.006 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\for discord
+2025-12-13 18:29:04.006 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\hiberfil.sys
+2025-12-13 18:29:04.007 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\hiberfil.sys - C:\hiberfil.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:29:04.007 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\hiberfil.sys
+2025-12-13 18:29:04.007 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Intel
+2025-12-13 18:29:04.008 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Intel
+2025-12-13 18:29:04.008 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\MSOCache
+2025-12-13 18:29:04.009 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\MSOCache
+2025-12-13 18:29:04.009 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\pagefile.sys
+2025-12-13 18:29:04.010 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\pagefile.sys - C:\pagefile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:29:04.010 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\pagefile.sys
+2025-12-13 18:29:04.010 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\PerfLogs
+2025-12-13 18:29:04.011 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\PerfLogs
+2025-12-13 18:29:04.011 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files
+2025-12-13 18:29:04.012 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files
+2025-12-13 18:29:04.012 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files (x86)
+2025-12-13 18:29:04.013 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files (x86)
+2025-12-13 18:29:04.013 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\ProgramData
+2025-12-13 18:29:04.013 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\ProgramData
+2025-12-13 18:29:04.014 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Recovery
+2025-12-13 18:29:04.014 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Recovery
+2025-12-13 18:29:04.014 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\sqlite
+2025-12-13 18:29:04.015 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\sqlite
+2025-12-13 18:29:04.015 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\SQLiteLab
+2025-12-13 18:29:04.016 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\SQLiteLab
+2025-12-13 18:29:04.016 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\swapfile.sys
+2025-12-13 18:29:04.017 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\swapfile.sys - C:\swapfile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:29:04.017 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\swapfile.sys
+2025-12-13 18:29:04.017 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\System Volume Information
+2025-12-13 18:29:04.018 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\System Volume Information
+2025-12-13 18:29:04.018 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users
+2025-12-13 18:29:04.019 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users
+2025-12-13 18:29:04.019 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:29:04.020 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:29:04.020 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:29:04.020 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:29:04.021 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Windows
+2025-12-13 18:29:04.021 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Windows
+2025-12-13 18:29:04.022 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 22, с ошибками: 0, всего: 22
+2025-12-13 18:29:04.044 [AWT-EventQueue-0] DEBUG MainFrame - Загружено 22 элементов из папки C:\ (Локальный диск)
+2025-12-13 18:29:04.068 [AWT-EventQueue-0] INFO  MainFrame - Содержимое папки 'C:\ (Локальный диск)' успешно загружено (22 элементов)
+2025-12-13 18:29:05.873 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: hiberfil.sys
+2025-12-13 18:29:05.873 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: hiberfil.sys
+2025-12-13 18:29:11.402 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: Program Files
+2025-12-13 18:29:11.403 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: Program Files
+2025-12-13 18:29:11.403 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: Program Files
+2025-12-13 18:29:11.404 [SwingWorker-pool-4-thread-2] INFO  FileSystemScanner - Получение статистики для директории: C:\Program Files
+2025-12-13 18:29:11.405 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Рекурсивный обход директории C:\Program Files
+2025-12-13 18:29:12.233 [AWT-EventQueue-0] ERROR MainFrame - Ошибка при расчете статистики папки Program Files: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Program Files\Windows Defender Advanced Threat Protection\Classification\Configuration
+java.util.concurrent.ExecutionException: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Program Files\Windows Defender Advanced Threat Protection\Classification\Configuration
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613) ~[?:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.done(MainFrame.java:428) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847) ~[?:?]
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857) ~[?:?]
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:310) ~[?:?]
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:242) ~[?:?]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Program Files\Windows Defender Advanced Threat Protection\Classification\Configuration
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:87) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+Caused by: java.nio.file.AccessDeniedException: C:\Program Files\Windows Defender Advanced Threat Protection\Classification\Configuration
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:533) ~[?:?]
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:476) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.next(FileTreeWalker.java:373) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:83) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+2025-12-13 18:29:20.138 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: Program Files (x86)
+2025-12-13 18:29:20.138 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: Program Files (x86)
+2025-12-13 18:29:20.139 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: Program Files (x86)
+2025-12-13 18:29:20.139 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Получение статистики для директории: C:\Program Files (x86)
+2025-12-13 18:29:20.141 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Рекурсивный обход директории C:\Program Files (x86)
+2025-12-13 18:29:22.482 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Статистика собрана. Файлов: 22152, Папок: 1830, Общий размер: 19006531146 байт, Недоступно: 0
+2025-12-13 18:29:22.483 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - DirectoryStats создан: размер=19006531146, файлы=22152, папки=1830
+2025-12-13 18:29:22.523 [AWT-EventQueue-0] DEBUG MainFrame - Статистика рассчитана: файлов=22152, папок=1830, размер=19006531146 байт
+2025-12-13 18:29:22.525 [AWT-EventQueue-0] DEBUG MainFrame - Информация о папке обновлена в интерфейсе
+2025-12-13 18:29:28.444 [Thread-0] INFO  Main - Приложение завершает работу
+2025-12-13 18:30:50.866 [main] INFO  Main - Запуск приложения Анализатор файловой системы
+2025-12-13 18:30:50.882 [main] DEBUG Main - Аргументы командной строки: []
+2025-12-13 18:30:50.883 [main] INFO  Main - === Информация о системе ===
+2025-12-13 18:30:50.883 [main] INFO  Main - Версия Java: 16.0.2
+2025-12-13 18:30:50.883 [main] INFO  Main - Вендор Java: Oracle Corporation
+2025-12-13 18:30:50.883 [main] INFO  Main - Директория Java: C:\Program Files\Java\jdk-16.0.2
+2025-12-13 18:30:50.884 [main] INFO  Main - ОС: Windows 10 10.0
+2025-12-13 18:30:50.884 [main] INFO  Main - Архитектура: amd64
+2025-12-13 18:30:50.884 [main] INFO  Main - Имя пользователя: Admin
+2025-12-13 18:30:50.884 [main] INFO  Main - Рабочая директория: C:\Users\Admin\IdeaProjects\FileSystemAnalyzer
+2025-12-13 18:30:50.884 [main] INFO  Main - Домашняя директория: C:\Users\Admin
+2025-12-13 18:30:50.885 [main] INFO  Main - Доступно процессоров: 44
+2025-12-13 18:30:50.885 [main] INFO  Main - Максимальная память: 8172 MB
+2025-12-13 18:30:50.885 [main] INFO  Main - Всего памяти: 512 MB
+2025-12-13 18:30:50.885 [main] INFO  Main - Свободная память: 499 MB
+2025-12-13 18:30:50.885 [main] INFO  Main - Кодировка файлов: UTF-8
+2025-12-13 18:30:50.886 [main] INFO  Main - === Конец информации о системе ===
+2025-12-13 18:30:50.886 [main] INFO  Main - Установка системного Look and Feel
+2025-12-13 18:30:51.021 [main] DEBUG Main - Look and Feel успешно установлен: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2025-12-13 18:30:51.021 [main] INFO  Main - Проверка доступности файловой системы
+2025-12-13 18:30:51.026 [main] INFO  Main - Найдено 2 доступных дисков:
+2025-12-13 18:30:51.027 [main] INFO  Main -   Диск: C:\
+2025-12-13 18:30:51.030 [main] INFO  Main -     Всего места: 930,88 GB
+2025-12-13 18:30:51.030 [main] INFO  Main -     Свободно: 780,44 GB (83,8%)
+2025-12-13 18:30:51.031 [main] INFO  Main -     Использовано: 150,44 GB
+2025-12-13 18:30:51.031 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:30:51.032 [main] INFO  Main -   Диск: D:\
+2025-12-13 18:30:51.032 [main] INFO  Main -     Всего места: 1863,01 GB
+2025-12-13 18:30:51.033 [main] INFO  Main -     Свободно: 724,94 GB (38,9%)
+2025-12-13 18:30:51.033 [main] INFO  Main -     Использовано: 1138,07 GB
+2025-12-13 18:30:51.033 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:30:51.033 [main] INFO  Main - Запуск графического интерфейса в потоке EDT
+2025-12-13 18:30:51.036 [main] INFO  Main - Инициализация приложения завершена, GUI запущен
+2025-12-13 18:30:51.037 [AWT-EventQueue-0] DEBUG Main - Создание главного окна приложения
+2025-12-13 18:30:51.370 [AWT-EventQueue-0] INFO  MainFrame - Инициализация главного окна приложения
+2025-12-13 18:30:51.373 [AWT-EventQueue-0] DEBUG FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:30:51.373 [AWT-EventQueue-0] DEBUG MainFrame - Инициализация компонентов интерфейса
+2025-12-13 18:30:51.416 [AWT-EventQueue-0] DEBUG MainFrame - Поле пути установлено на: C:\Users\Admin
+2025-12-13 18:30:51.468 [AWT-EventQueue-0] DEBUG MainFrame - Дерево файлов инициализировано
+2025-12-13 18:30:51.471 [AWT-EventQueue-0] DEBUG MainFrame - Область информации инициализирована
+2025-12-13 18:30:51.471 [AWT-EventQueue-0] DEBUG MainFrame - Настройка компоновки интерфейса
+2025-12-13 18:30:51.472 [AWT-EventQueue-0] DEBUG MainFrame - Верхняя панель с кнопками создана
+2025-12-13 18:30:51.495 [AWT-EventQueue-0] DEBUG MainFrame - Центральная панель с разделителем создана
+2025-12-13 18:30:51.496 [AWT-EventQueue-0] DEBUG MainFrame - Размер окна установлен: 1200x800
+2025-12-13 18:30:51.496 [AWT-EventQueue-0] DEBUG MainFrame - Настройка обработчиков событий
+2025-12-13 18:30:51.498 [AWT-EventQueue-0] DEBUG MainFrame - Обработчики событий успешно настроены
+2025-12-13 18:30:51.499 [AWT-EventQueue-0] INFO  MainFrame - Загрузка списка корневых дисков
+2025-12-13 18:30:51.499 [AWT-EventQueue-0] INFO  MainFrame - Найдено 2 дисков
+2025-12-13 18:30:51.500 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: C:\ (Локальный диск)
+2025-12-13 18:30:51.500 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: D:\ (Локальный диск)
+2025-12-13 18:30:51.523 [AWT-EventQueue-0] INFO  MainFrame - Модель дерева дисков создана
+2025-12-13 18:30:51.523 [AWT-EventQueue-0] INFO  MainFrame - Главное окно успешно создано
+2025-12-13 18:30:51.620 [AWT-EventQueue-0] INFO  Main - Главное окно успешно создано и отображено
+2025-12-13 18:30:51.621 [AWT-EventQueue-0] DEBUG Main - Размер окна: 1200x800, Позиция: 360,125
+2025-12-13 18:30:59.386 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: C:\ (Локальный диск)
+2025-12-13 18:30:59.387 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: C:\ (Локальный диск)
+2025-12-13 18:30:59.387 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: C:\ (Локальный диск)
+2025-12-13 18:30:59.390 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Получение статистики для директории: C:\
+2025-12-13 18:30:59.391 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Рекурсивный обход директории C:\
+2025-12-13 18:30:59.557 [AWT-EventQueue-0] ERROR MainFrame - Ошибка при расчете статистики папки C:\ (Локальный диск): java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+java.util.concurrent.ExecutionException: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613) ~[?:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.done(MainFrame.java:428) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847) ~[?:?]
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857) ~[?:?]
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:310) ~[?:?]
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:242) ~[?:?]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:87) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+Caused by: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:533) ~[?:?]
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:476) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.next(FileTreeWalker.java:373) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:94) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+2025-12-13 18:31:12.514 [AWT-EventQueue-0] INFO  MainFrame - Нажата кнопка 'Обновить'
+2025-12-13 18:31:12.514 [AWT-EventQueue-0] INFO  MainFrame - Обновление дерева файлов
+2025-12-13 18:31:12.515 [AWT-EventQueue-0] DEBUG MainFrame - Область информации очищена
+2025-12-13 18:31:12.515 [AWT-EventQueue-0] INFO  MainFrame - Загрузка списка корневых дисков
+2025-12-13 18:31:12.516 [AWT-EventQueue-0] INFO  MainFrame - Найдено 2 дисков
+2025-12-13 18:31:12.516 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: C:\ (Локальный диск)
+2025-12-13 18:31:12.516 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: D:\ (Локальный диск)
+2025-12-13 18:31:12.518 [AWT-EventQueue-0] INFO  MainFrame - Модель дерева дисков создана
+2025-12-13 18:31:12.518 [AWT-EventQueue-0] INFO  MainFrame - Дерево файлов успешно обновлено. Текущий путь: C:\Users\Admin
+2025-12-13 18:31:22.579 [AWT-EventQueue-0] DEBUG MainFrame - Раскрытие папки: C:\ (Локальный диск)
+2025-12-13 18:31:22.580 [AWT-EventQueue-0] DEBUG MainFrame - Загрузка содержимого папки: C:\ (Локальный диск)
+2025-12-13 18:31:22.581 [SwingWorker-pool-4-thread-2] INFO  FileSystemScanner - Начало сканирования директории: C:\
+2025-12-13 18:31:22.583 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Директория C:\ существует, начинаем сканирование
+2025-12-13 18:31:22.583 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\$Recycle.Bin
+2025-12-13 18:31:22.586 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\$Recycle.Bin
+2025-12-13 18:31:22.586 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Dev-Cpp
+2025-12-13 18:31:22.587 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Dev-Cpp
+2025-12-13 18:31:22.587 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Documents and Settings
+2025-12-13 18:31:22.588 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Documents and Settings
+2025-12-13 18:31:22.588 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\DumpStack.log.tmp
+2025-12-13 18:31:22.589 [SwingWorker-pool-4-thread-2] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\DumpStack.log.tmp - C:\DumpStack.log.tmp: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:31:22.589 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\DumpStack.log.tmp
+2025-12-13 18:31:22.589 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\for discord
+2025-12-13 18:31:22.590 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\for discord
+2025-12-13 18:31:22.590 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\hiberfil.sys
+2025-12-13 18:31:22.590 [SwingWorker-pool-4-thread-2] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\hiberfil.sys - C:\hiberfil.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:31:22.591 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\hiberfil.sys
+2025-12-13 18:31:22.591 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Intel
+2025-12-13 18:31:22.591 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Intel
+2025-12-13 18:31:22.592 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\MSOCache
+2025-12-13 18:31:22.592 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\MSOCache
+2025-12-13 18:31:22.592 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\pagefile.sys
+2025-12-13 18:31:22.593 [SwingWorker-pool-4-thread-2] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\pagefile.sys - C:\pagefile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:31:22.593 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\pagefile.sys
+2025-12-13 18:31:22.593 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\PerfLogs
+2025-12-13 18:31:22.594 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\PerfLogs
+2025-12-13 18:31:22.594 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files
+2025-12-13 18:31:22.595 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files
+2025-12-13 18:31:22.595 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files (x86)
+2025-12-13 18:31:22.595 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files (x86)
+2025-12-13 18:31:22.595 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\ProgramData
+2025-12-13 18:31:22.596 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\ProgramData
+2025-12-13 18:31:22.596 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Recovery
+2025-12-13 18:31:22.596 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Recovery
+2025-12-13 18:31:22.597 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\sqlite
+2025-12-13 18:31:22.597 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\sqlite
+2025-12-13 18:31:22.597 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\SQLiteLab
+2025-12-13 18:31:22.598 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\SQLiteLab
+2025-12-13 18:31:22.598 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\swapfile.sys
+2025-12-13 18:31:22.599 [SwingWorker-pool-4-thread-2] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\swapfile.sys - C:\swapfile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:31:22.599 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\swapfile.sys
+2025-12-13 18:31:22.599 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\System Volume Information
+2025-12-13 18:31:22.600 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\System Volume Information
+2025-12-13 18:31:22.600 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users
+2025-12-13 18:31:22.600 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users
+2025-12-13 18:31:22.601 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:31:22.601 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:31:22.602 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:31:22.602 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:31:22.602 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Начало сканирования файла: C:\Windows
+2025-12-13 18:31:22.603 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Windows
+2025-12-13 18:31:22.603 [SwingWorker-pool-4-thread-2] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 22, с ошибками: 0, всего: 22
+2025-12-13 18:31:22.628 [AWT-EventQueue-0] DEBUG MainFrame - Загружено 22 элементов из папки C:\ (Локальный диск)
+2025-12-13 18:31:22.651 [AWT-EventQueue-0] INFO  MainFrame - Содержимое папки 'C:\ (Локальный диск)' успешно загружено (22 элементов)
+2025-12-13 18:31:27.983 [AWT-EventQueue-0] DEBUG MainFrame - Раскрытие папки: Program Files
+2025-12-13 18:31:27.984 [AWT-EventQueue-0] DEBUG MainFrame - Загрузка содержимого папки: Program Files
+2025-12-13 18:31:27.985 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Начало сканирования директории: C:\Program Files
+2025-12-13 18:31:27.986 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Директория C:\Program Files существует, начинаем сканирование
+2025-12-13 18:31:27.986 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\7-Zip
+2025-12-13 18:31:27.987 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\7-Zip
+2025-12-13 18:31:27.987 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Arduino IDE
+2025-12-13 18:31:27.988 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Arduino IDE
+2025-12-13 18:31:27.988 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Common Files
+2025-12-13 18:31:27.988 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Common Files
+2025-12-13 18:31:27.988 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\desktop.ini
+2025-12-13 18:31:27.989 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\desktop.ini
+2025-12-13 18:31:27.989 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\DIFX
+2025-12-13 18:31:27.989 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\DIFX
+2025-12-13 18:31:27.990 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\FACEIT AC
+2025-12-13 18:31:27.990 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\FACEIT AC
+2025-12-13 18:31:27.990 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Google
+2025-12-13 18:31:27.991 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Google
+2025-12-13 18:31:27.991 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Intel
+2025-12-13 18:31:27.991 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Intel
+2025-12-13 18:31:27.992 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Internet Explorer
+2025-12-13 18:31:27.992 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Internet Explorer
+2025-12-13 18:31:27.992 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Java
+2025-12-13 18:31:27.993 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Java
+2025-12-13 18:31:27.993 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\JetBrains
+2025-12-13 18:31:27.993 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\JetBrains
+2025-12-13 18:31:27.993 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Microsoft Help Viewer
+2025-12-13 18:31:27.994 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Microsoft Help Viewer
+2025-12-13 18:31:27.994 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Microsoft Office
+2025-12-13 18:31:27.995 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Microsoft Office
+2025-12-13 18:31:27.995 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Microsoft SQL Server Compact Edition
+2025-12-13 18:31:27.995 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Microsoft SQL Server Compact Edition
+2025-12-13 18:31:27.995 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Microsoft Synchronization Services
+2025-12-13 18:31:27.996 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Microsoft Synchronization Services
+2025-12-13 18:31:27.996 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Microsoft Visual Studio 10.0
+2025-12-13 18:31:27.997 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Microsoft Visual Studio 10.0
+2025-12-13 18:31:27.997 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\ModifiableWindowsApps
+2025-12-13 18:31:27.997 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\ModifiableWindowsApps
+2025-12-13 18:31:27.997 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\NVIDIA Corporation
+2025-12-13 18:31:27.999 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\NVIDIA Corporation
+2025-12-13 18:31:27.999 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Uninstall Information
+2025-12-13 18:31:28.000 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Uninstall Information
+2025-12-13 18:31:28.000 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Defender
+2025-12-13 18:31:28.001 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Defender
+2025-12-13 18:31:28.001 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Defender Advanced Threat Protection
+2025-12-13 18:31:28.001 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Defender Advanced Threat Protection
+2025-12-13 18:31:28.002 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Mail
+2025-12-13 18:31:28.002 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Mail
+2025-12-13 18:31:28.002 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Media Player
+2025-12-13 18:31:28.003 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Media Player
+2025-12-13 18:31:28.003 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Multimedia Platform
+2025-12-13 18:31:28.004 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Multimedia Platform
+2025-12-13 18:31:28.004 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows NT
+2025-12-13 18:31:28.005 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows NT
+2025-12-13 18:31:28.005 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Photo Viewer
+2025-12-13 18:31:28.005 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Photo Viewer
+2025-12-13 18:31:28.005 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Portable Devices
+2025-12-13 18:31:28.006 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Portable Devices
+2025-12-13 18:31:28.006 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Security
+2025-12-13 18:31:28.007 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Security
+2025-12-13 18:31:28.007 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\Windows Sidebar
+2025-12-13 18:31:28.008 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\Windows Sidebar
+2025-12-13 18:31:28.008 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\WindowsApps
+2025-12-13 18:31:28.008 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\WindowsApps
+2025-12-13 18:31:28.009 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files\WindowsPowerShell
+2025-12-13 18:31:28.009 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files\WindowsPowerShell
+2025-12-13 18:31:28.010 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 31, с ошибками: 0, всего: 31
+2025-12-13 18:31:28.026 [AWT-EventQueue-0] DEBUG MainFrame - Загружено 31 элементов из папки Program Files
+2025-12-13 18:31:28.033 [AWT-EventQueue-0] INFO  MainFrame - Содержимое папки 'Program Files' успешно загружено (31 элементов)
+2025-12-13 18:31:29.545 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: Arduino IDE
+2025-12-13 18:31:29.545 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: Arduino IDE
+2025-12-13 18:31:29.545 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: Arduino IDE
+2025-12-13 18:31:29.546 [SwingWorker-pool-4-thread-4] INFO  FileSystemScanner - Получение статистики для директории: C:\Program Files\Arduino IDE
+2025-12-13 18:31:29.547 [SwingWorker-pool-4-thread-4] DEBUG FileSystemScanner - Рекурсивный обход директории C:\Program Files\Arduino IDE
+2025-12-13 18:31:29.550 [SwingWorker-pool-4-thread-4] INFO  FileSystemScanner - Статистика собрана. Файлов: 1, Папок: 5, Общий размер: 35432680 байт, Недоступно: 0
+2025-12-13 18:31:29.551 [SwingWorker-pool-4-thread-4] DEBUG FileSystemScanner - DirectoryStats создан: размер=35432680, файлы=1, папки=5
+2025-12-13 18:31:29.583 [AWT-EventQueue-0] DEBUG MainFrame - Статистика рассчитана: файлов=1, папок=5, размер=35432680 байт
+2025-12-13 18:31:29.586 [AWT-EventQueue-0] DEBUG MainFrame - Информация о папке обновлена в интерфейсе
+2025-12-13 18:31:37.283 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: FACEIT AC
+2025-12-13 18:31:37.283 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: FACEIT AC
+2025-12-13 18:31:37.283 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: FACEIT AC
+2025-12-13 18:31:37.285 [SwingWorker-pool-4-thread-5] INFO  FileSystemScanner - Получение статистики для директории: C:\Program Files\FACEIT AC
+2025-12-13 18:31:37.286 [SwingWorker-pool-4-thread-5] DEBUG FileSystemScanner - Рекурсивный обход директории C:\Program Files\FACEIT AC
+2025-12-13 18:31:37.299 [SwingWorker-pool-4-thread-5] INFO  FileSystemScanner - Статистика собрана. Файлов: 96, Папок: 2, Общий размер: 316289656 байт, Недоступно: 0
+2025-12-13 18:31:37.299 [SwingWorker-pool-4-thread-5] DEBUG FileSystemScanner - DirectoryStats создан: размер=316289656, файлы=96, папки=2
+2025-12-13 18:31:37.327 [AWT-EventQueue-0] DEBUG MainFrame - Статистика рассчитана: файлов=96, папок=2, размер=316289656 байт
+2025-12-13 18:31:37.329 [AWT-EventQueue-0] DEBUG MainFrame - Информация о папке обновлена в интерфейсе
+2025-12-13 18:31:39.828 [Thread-0] INFO  Main - Приложение завершает работу
+2025-12-13 18:44:28.829 [main] INFO  Main - Запуск приложения Анализатор файловой системы
+2025-12-13 18:44:28.846 [main] DEBUG Main - Аргументы командной строки: []
+2025-12-13 18:44:28.846 [main] INFO  Main - === Информация о системе ===
+2025-12-13 18:44:28.846 [main] INFO  Main - Версия Java: 16.0.2
+2025-12-13 18:44:28.847 [main] INFO  Main - Вендор Java: Oracle Corporation
+2025-12-13 18:44:28.847 [main] INFO  Main - Директория Java: C:\Program Files\Java\jdk-16.0.2
+2025-12-13 18:44:28.847 [main] INFO  Main - ОС: Windows 10 10.0
+2025-12-13 18:44:28.847 [main] INFO  Main - Архитектура: amd64
+2025-12-13 18:44:28.847 [main] INFO  Main - Имя пользователя: Admin
+2025-12-13 18:44:28.848 [main] INFO  Main - Рабочая директория: C:\Users\Admin\IdeaProjects\FileSystemAnalyzer
+2025-12-13 18:44:28.848 [main] INFO  Main - Домашняя директория: C:\Users\Admin
+2025-12-13 18:44:28.848 [main] INFO  Main - Доступно процессоров: 44
+2025-12-13 18:44:28.848 [main] INFO  Main - Максимальная память: 8172 MB
+2025-12-13 18:44:28.849 [main] INFO  Main - Всего памяти: 512 MB
+2025-12-13 18:44:28.849 [main] INFO  Main - Свободная память: 498 MB
+2025-12-13 18:44:28.849 [main] INFO  Main - Кодировка файлов: UTF-8
+2025-12-13 18:44:28.849 [main] INFO  Main - === Конец информации о системе ===
+2025-12-13 18:44:28.849 [main] INFO  Main - Установка системного Look and Feel
+2025-12-13 18:44:28.979 [main] DEBUG Main - Look and Feel успешно установлен: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2025-12-13 18:44:28.980 [main] INFO  Main - Проверка доступности файловой системы
+2025-12-13 18:44:28.985 [main] INFO  Main - Найдено 2 доступных дисков:
+2025-12-13 18:44:28.986 [main] INFO  Main -   Диск: C:\
+2025-12-13 18:44:28.988 [main] INFO  Main -     Всего места: 930,88 GB
+2025-12-13 18:44:28.989 [main] INFO  Main -     Свободно: 780,43 GB (83,8%)
+2025-12-13 18:44:28.989 [main] INFO  Main -     Использовано: 150,45 GB
+2025-12-13 18:44:28.989 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:44:28.990 [main] INFO  Main -   Диск: D:\
+2025-12-13 18:44:28.990 [main] INFO  Main -     Всего места: 1863,01 GB
+2025-12-13 18:44:28.991 [main] INFO  Main -     Свободно: 724,94 GB (38,9%)
+2025-12-13 18:44:28.992 [main] INFO  Main -     Использовано: 1138,07 GB
+2025-12-13 18:44:28.992 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:44:28.992 [main] INFO  Main - Запуск графического интерфейса в потоке EDT
+2025-12-13 18:44:28.994 [main] INFO  Main - Инициализация приложения завершена, GUI запущен
+2025-12-13 18:44:28.995 [AWT-EventQueue-0] DEBUG Main - Создание главного окна приложения
+2025-12-13 18:44:29.315 [AWT-EventQueue-0] INFO  MainFrame - Инициализация главного окна приложения
+2025-12-13 18:44:29.317 [AWT-EventQueue-0] DEBUG FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:44:29.318 [AWT-EventQueue-0] DEBUG MainFrame - Инициализация компонентов интерфейса
+2025-12-13 18:44:29.357 [AWT-EventQueue-0] DEBUG MainFrame - Поле пути установлено на: C:\Users\Admin
+2025-12-13 18:44:29.401 [AWT-EventQueue-0] DEBUG MainFrame - Дерево файлов инициализировано
+2025-12-13 18:44:29.404 [AWT-EventQueue-0] DEBUG MainFrame - Область информации инициализирована
+2025-12-13 18:44:29.404 [AWT-EventQueue-0] DEBUG MainFrame - Настройка компоновки интерфейса
+2025-12-13 18:44:29.404 [AWT-EventQueue-0] DEBUG MainFrame - Верхняя панель с кнопками создана
+2025-12-13 18:44:29.428 [AWT-EventQueue-0] DEBUG MainFrame - Центральная панель с разделителем создана
+2025-12-13 18:44:29.428 [AWT-EventQueue-0] DEBUG MainFrame - Размер окна установлен: 1200x800
+2025-12-13 18:44:29.429 [AWT-EventQueue-0] DEBUG MainFrame - Настройка обработчиков событий
+2025-12-13 18:44:29.432 [AWT-EventQueue-0] DEBUG MainFrame - Обработчики событий успешно настроены
+2025-12-13 18:44:29.433 [AWT-EventQueue-0] INFO  MainFrame - Загрузка списка корневых дисков
+2025-12-13 18:44:29.433 [AWT-EventQueue-0] INFO  MainFrame - Найдено 2 дисков
+2025-12-13 18:44:29.434 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: C:\ (Локальный диск)
+2025-12-13 18:44:29.435 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: D:\ (Локальный диск)
+2025-12-13 18:44:29.453 [AWT-EventQueue-0] INFO  MainFrame - Модель дерева дисков создана
+2025-12-13 18:44:29.454 [AWT-EventQueue-0] INFO  MainFrame - Главное окно успешно создано
+2025-12-13 18:44:29.547 [AWT-EventQueue-0] INFO  Main - Главное окно успешно создано и отображено
+2025-12-13 18:44:29.548 [AWT-EventQueue-0] DEBUG Main - Размер окна: 1200x800, Позиция: 360,125
+2025-12-13 18:44:32.258 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: C:\ (Локальный диск)
+2025-12-13 18:44:32.258 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: C:\ (Локальный диск)
+2025-12-13 18:44:32.258 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: C:\ (Локальный диск)
+2025-12-13 18:44:32.261 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Получение статистики для директории: C:\
+2025-12-13 18:44:32.263 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Рекурсивный обход директории C:\
+2025-12-13 18:44:32.387 [AWT-EventQueue-0] ERROR MainFrame - Ошибка при расчете статистики папки C:\ (Локальный диск): java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+java.util.concurrent.ExecutionException: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613) ~[?:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.done(MainFrame.java:428) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847) ~[?:?]
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857) ~[?:?]
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:310) ~[?:?]
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:242) ~[?:?]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:87) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+Caused by: java.nio.file.AccessDeniedException: C:\Documents and Settings
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:533) ~[?:?]
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:476) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.next(FileTreeWalker.java:373) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:94) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+2025-12-13 18:44:43.701 [Thread-0] INFO  Main - Приложение завершает работу
+2025-12-13 18:54:27.597 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.606 [Test worker] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit3975249212749766746\testdir
+2025-12-13 18:54:27.610 [Test worker] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit3975249212749766746\testdir
+2025-12-13 18:54:27.613 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.613 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.614 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.624 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.628 [Test worker] INFO  FileSystemScanner - ��������� ���������� ��� ����������: C:\Users\Admin\AppData\Local\Temp\junit11412785644151706113
+2025-12-13 18:54:27.629 [Test worker] DEBUG FileSystemScanner - ����������� ����� ���������� C:\Users\Admin\AppData\Local\Temp\junit11412785644151706113
+2025-12-13 18:54:27.633 [Test worker] INFO  FileSystemScanner - ���������� �������. ������: 3, �����: 2, ����� ������: 60 ����, ����������: 0
+2025-12-13 18:54:27.634 [Test worker] DEBUG FileSystemScanner - DirectoryStats ������: ������=60, �����=3, �����=2
+2025-12-13 18:54:27.634 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.635 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.635 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.642 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.645 [Test worker] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit1522105562478079885
+2025-12-13 18:54:27.646 [Test worker] DEBUG FileSystemScanner - ���������� C:\Users\Admin\AppData\Local\Temp\junit1522105562478079885 ����������, �������� ������������
+2025-12-13 18:54:27.647 [Test worker] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit1522105562478079885\link.txt
+2025-12-13 18:54:27.649 [Test worker] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit1522105562478079885\link.txt
+2025-12-13 18:54:27.650 [Test worker] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit1522105562478079885\original.txt
+2025-12-13 18:54:27.651 [Test worker] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit1522105562478079885\original.txt
+2025-12-13 18:54:27.651 [Test worker] INFO  FileSystemScanner - ������������ ���������. ������� ����������: 2, � ��������: 0, �����: 2
+2025-12-13 18:54:27.664 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.664 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.664 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.668 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.669 [Test worker] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit5839359955915927420
+2025-12-13 18:54:27.670 [Test worker] DEBUG FileSystemScanner - ���������� C:\Users\Admin\AppData\Local\Temp\junit5839359955915927420 ����������, �������� ������������
+2025-12-13 18:54:27.670 [Test worker] INFO  FileSystemScanner - ������������ ���������. ������� ����������: 0, � ��������: 0, �����: 0
+2025-12-13 18:54:27.671 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.671 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.671 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.675 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.685 [Thread-4] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275
+2025-12-13 18:54:27.685 [Thread-6] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275
+2025-12-13 18:54:27.685 [Thread-5] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275
+2025-12-13 18:54:27.685 [Thread-3] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275
+2025-12-13 18:54:27.685 [Thread-7] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275
+2025-12-13 18:54:27.687 [Thread-4] DEBUG FileSystemScanner - ���������� C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275 ����������, �������� ������������
+2025-12-13 18:54:27.687 [Thread-5] DEBUG FileSystemScanner - ���������� C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275 ����������, �������� ������������
+2025-12-13 18:54:27.687 [Thread-3] DEBUG FileSystemScanner - ���������� C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275 ����������, �������� ������������
+2025-12-13 18:54:27.687 [Thread-6] DEBUG FileSystemScanner - ���������� C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275 ����������, �������� ������������
+2025-12-13 18:54:27.687 [Thread-7] DEBUG FileSystemScanner - ���������� C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275 ����������, �������� ������������
+2025-12-13 18:54:27.687 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.688 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.688 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.688 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.688 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.689 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.689 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.689 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.689 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.689 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir0
+2025-12-13 18:54:27.689 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.689 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.689 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.690 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.690 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.690 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.690 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.690 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.691 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.691 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.691 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir1
+2025-12-13 18:54:27.691 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.691 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.691 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.691 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.692 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.692 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.692 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.692 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.692 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.692 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir2
+2025-12-13 18:54:27.692 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.693 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.693 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.693 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.693 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.693 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.694 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.694 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.694 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.694 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir3
+2025-12-13 18:54:27.694 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.694 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.694 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.694 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.694 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.695 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.695 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.695 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.695 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.695 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.695 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.695 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.695 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir4
+2025-12-13 18:54:27.696 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.696 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.696 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.696 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.696 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.697 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.697 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.697 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.697 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.697 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir5
+2025-12-13 18:54:27.697 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.697 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.697 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.697 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.698 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.698 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.698 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.698 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.698 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir6
+2025-12-13 18:54:27.698 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.698 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.698 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.698 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.699 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.699 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.699 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.699 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.699 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.699 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.699 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir7
+2025-12-13 18:54:27.700 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.700 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.700 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.700 [Thread-5] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.700 [Thread-6] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.700 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.700 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.700 [Thread-7] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.700 [Thread-4] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.701 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir8
+2025-12-13 18:54:27.701 [Thread-5] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.701 [Thread-6] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.701 [Thread-3] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.701 [Thread-5] INFO  FileSystemScanner - ������������ ���������. ������� ����������: 10, � ��������: 0, �����: 10
+2025-12-13 18:54:27.701 [Thread-6] INFO  FileSystemScanner - ������������ ���������. ������� ����������: 10, � ��������: 0, �����: 10
+2025-12-13 18:54:27.701 [Thread-7] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.701 [Thread-4] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.702 [Thread-7] INFO  FileSystemScanner - ������������ ���������. ������� ����������: 10, � ��������: 0, �����: 10
+2025-12-13 18:54:27.702 [Thread-4] INFO  FileSystemScanner - ������������ ���������. ������� ����������: 10, � ��������: 0, �����: 10
+2025-12-13 18:54:27.702 [Thread-3] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit6839440259241350275\dir9
+2025-12-13 18:54:27.702 [Thread-3] INFO  FileSystemScanner - ������������ ���������. ������� ����������: 10, � ��������: 0, �����: 10
+2025-12-13 18:54:27.703 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.704 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.704 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.721 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.725 [Test worker] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit13348406754744530088\non-existent
+2025-12-13 18:54:27.727 [Test worker] ERROR FileSystemScanner - ���������� �� ���������� ��� �� �������� ������: C:\Users\Admin\AppData\Local\Temp\junit13348406754744530088\non-existent
+2025-12-13 18:54:27.730 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.730 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.730 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.737 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.740 [Test worker] DEBUG FileSystemScanner - ����������� ������ ���������� ���: C:\Users\Admin\AppData\Local\Temp\junit9787178533535647972
+2025-12-13 18:54:27.742 [pool-8-thread-1] INFO  FileSystemScanner - ��������� ���������� ��� ����������: C:\Users\Admin\AppData\Local\Temp\junit9787178533535647972
+2025-12-13 18:54:27.745 [pool-8-thread-1] DEBUG FileSystemScanner - ����������� ����� ���������� C:\Users\Admin\AppData\Local\Temp\junit9787178533535647972
+2025-12-13 18:54:27.746 [pool-8-thread-1] INFO  FileSystemScanner - ���������� �������. ������: 1, �����: 0, ����� ������: 5 ����, ����������: 0
+2025-12-13 18:54:27.746 [pool-8-thread-1] DEBUG FileSystemScanner - DirectoryStats ������: ������=5, �����=1, �����=0
+2025-12-13 18:54:27.746 [pool-8-thread-1] DEBUG FileSystemScanner - ����������� ������ ���������: C:\Users\Admin\AppData\Local\Temp\junit9787178533535647972
+2025-12-13 18:54:27.747 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.748 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.748 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.752 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.753 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.753 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.753 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.757 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.759 [Test worker] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit17172182652021207135\test.txt
+2025-12-13 18:54:27.760 [Test worker] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit17172182652021207135\test.txt
+2025-12-13 18:54:27.761 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.761 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.761 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.766 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.768 [Test worker] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit12551176152514583193
+2025-12-13 18:54:27.769 [Test worker] DEBUG FileSystemScanner - ���������� C:\Users\Admin\AppData\Local\Temp\junit12551176152514583193 ����������, �������� ������������
+2025-12-13 18:54:27.769 [Test worker] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit12551176152514583193\file1.txt
+2025-12-13 18:54:27.770 [Test worker] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit12551176152514583193\file1.txt
+2025-12-13 18:54:27.770 [Test worker] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit12551176152514583193\file2.txt
+2025-12-13 18:54:27.771 [Test worker] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit12551176152514583193\file2.txt
+2025-12-13 18:54:27.771 [Test worker] DEBUG FileSystemScanner - ������ ������������ �����: C:\Users\Admin\AppData\Local\Temp\junit12551176152514583193\subdir
+2025-12-13 18:54:27.772 [Test worker] DEBUG FileSystemScanner - ������������ ����� ���������: C:\Users\Admin\AppData\Local\Temp\junit12551176152514583193\subdir
+2025-12-13 18:54:27.772 [Test worker] INFO  FileSystemScanner - ������������ ���������. ������� ����������: 3, � ��������: 0, �����: 3
+2025-12-13 18:54:27.774 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.775 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.775 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:54:27.780 [Test worker] DEBUG FileSystemScanner - FileSystemScanner ��������������� � ����� �� 44 �������
+2025-12-13 18:54:27.781 [Test worker] INFO  FileSystemScanner - ������ ������������ ����������: C:\Users\Admin\AppData\Local\Temp\junit1227691760075803802\testfile.txt
+2025-12-13 18:54:27.781 [Test worker] ERROR FileSystemScanner - ���������� �� ���������� ��� �� �������� ������: C:\Users\Admin\AppData\Local\Temp\junit1227691760075803802\testfile.txt
+2025-12-13 18:54:27.782 [Test worker] INFO  FileSystemScanner - ���������� ������ FileSystemScanner
+2025-12-13 18:54:27.782 [Test worker] DEBUG FileSystemScanner - ��� ������ ������� ���������
+2025-12-13 18:54:27.783 [Test worker] INFO  FileSystemScanner - FileSystemScanner ����������
+2025-12-13 18:59:48.940 [main] INFO  Main - Запуск приложения Анализатор файловой системы
+2025-12-13 18:59:48.956 [main] DEBUG Main - Аргументы командной строки: []
+2025-12-13 18:59:48.957 [main] INFO  Main - === Информация о системе ===
+2025-12-13 18:59:48.957 [main] INFO  Main - Версия Java: 16.0.2
+2025-12-13 18:59:48.957 [main] INFO  Main - Вендор Java: Oracle Corporation
+2025-12-13 18:59:48.957 [main] INFO  Main - Директория Java: C:\Program Files\Java\jdk-16.0.2
+2025-12-13 18:59:48.958 [main] INFO  Main - ОС: Windows 10 10.0
+2025-12-13 18:59:48.958 [main] INFO  Main - Архитектура: amd64
+2025-12-13 18:59:48.958 [main] INFO  Main - Имя пользователя: Admin
+2025-12-13 18:59:48.958 [main] INFO  Main - Рабочая директория: C:\Users\Admin\IdeaProjects\FileSystemAnalyzer
+2025-12-13 18:59:48.958 [main] INFO  Main - Домашняя директория: C:\Users\Admin
+2025-12-13 18:59:48.959 [main] INFO  Main - Доступно процессоров: 44
+2025-12-13 18:59:48.959 [main] INFO  Main - Максимальная память: 8172 MB
+2025-12-13 18:59:48.959 [main] INFO  Main - Всего памяти: 512 MB
+2025-12-13 18:59:48.959 [main] INFO  Main - Свободная память: 498 MB
+2025-12-13 18:59:48.960 [main] INFO  Main - Кодировка файлов: UTF-8
+2025-12-13 18:59:48.960 [main] INFO  Main - === Конец информации о системе ===
+2025-12-13 18:59:48.960 [main] INFO  Main - Установка системного Look and Feel
+2025-12-13 18:59:49.089 [main] DEBUG Main - Look and Feel успешно установлен: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2025-12-13 18:59:49.089 [main] INFO  Main - Проверка доступности файловой системы
+2025-12-13 18:59:49.093 [main] INFO  Main - Найдено 2 доступных дисков:
+2025-12-13 18:59:49.094 [main] INFO  Main -   Диск: C:\
+2025-12-13 18:59:49.096 [main] INFO  Main -     Всего места: 930,88 GB
+2025-12-13 18:59:49.097 [main] INFO  Main -     Свободно: 780,42 GB (83,8%)
+2025-12-13 18:59:49.097 [main] INFO  Main -     Использовано: 150,46 GB
+2025-12-13 18:59:49.097 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:59:49.098 [main] INFO  Main -   Диск: D:\
+2025-12-13 18:59:49.098 [main] INFO  Main -     Всего места: 1863,01 GB
+2025-12-13 18:59:49.099 [main] INFO  Main -     Свободно: 724,94 GB (38,9%)
+2025-12-13 18:59:49.099 [main] INFO  Main -     Использовано: 1138,07 GB
+2025-12-13 18:59:49.100 [main] DEBUG Main -     Читаемый: true, Записываемый: true
+2025-12-13 18:59:49.100 [main] INFO  Main - Запуск графического интерфейса в потоке EDT
+2025-12-13 18:59:49.102 [main] INFO  Main - Инициализация приложения завершена, GUI запущен
+2025-12-13 18:59:49.103 [AWT-EventQueue-0] DEBUG Main - Создание главного окна приложения
+2025-12-13 18:59:49.407 [AWT-EventQueue-0] INFO  MainFrame - Инициализация главного окна приложения
+2025-12-13 18:59:49.409 [AWT-EventQueue-0] DEBUG FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:59:49.409 [AWT-EventQueue-0] DEBUG MainFrame - Инициализация компонентов интерфейса
+2025-12-13 18:59:49.448 [AWT-EventQueue-0] DEBUG MainFrame - Поле пути установлено на: C:\Users\Admin
+2025-12-13 18:59:49.492 [AWT-EventQueue-0] DEBUG MainFrame - Дерево файлов инициализировано
+2025-12-13 18:59:49.495 [AWT-EventQueue-0] DEBUG MainFrame - Область информации инициализирована
+2025-12-13 18:59:49.495 [AWT-EventQueue-0] DEBUG MainFrame - Настройка компоновки интерфейса
+2025-12-13 18:59:49.496 [AWT-EventQueue-0] DEBUG MainFrame - Верхняя панель с кнопками создана
+2025-12-13 18:59:49.518 [AWT-EventQueue-0] DEBUG MainFrame - Центральная панель с разделителем создана
+2025-12-13 18:59:49.519 [AWT-EventQueue-0] DEBUG MainFrame - Размер окна установлен: 1200x800
+2025-12-13 18:59:49.519 [AWT-EventQueue-0] DEBUG MainFrame - Настройка обработчиков событий
+2025-12-13 18:59:49.523 [AWT-EventQueue-0] DEBUG MainFrame - Обработчики событий успешно настроены
+2025-12-13 18:59:49.523 [AWT-EventQueue-0] INFO  MainFrame - Загрузка списка корневых дисков
+2025-12-13 18:59:49.523 [AWT-EventQueue-0] INFO  MainFrame - Найдено 2 дисков
+2025-12-13 18:59:49.524 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: C:\ (Локальный диск)
+2025-12-13 18:59:49.525 [AWT-EventQueue-0] DEBUG MainFrame - Добавлен диск: D:\ (Локальный диск)
+2025-12-13 18:59:49.547 [AWT-EventQueue-0] INFO  MainFrame - Модель дерева дисков создана
+2025-12-13 18:59:49.547 [AWT-EventQueue-0] INFO  MainFrame - Главное окно успешно создано
+2025-12-13 18:59:49.638 [AWT-EventQueue-0] INFO  Main - Главное окно успешно создано и отображено
+2025-12-13 18:59:49.638 [AWT-EventQueue-0] DEBUG Main - Размер окна: 1200x800, Позиция: 360,125
+2025-12-13 18:59:51.597 [AWT-EventQueue-0] DEBUG MainFrame - Раскрытие папки: C:\ (Локальный диск)
+2025-12-13 18:59:51.598 [AWT-EventQueue-0] DEBUG MainFrame - Загрузка содержимого папки: C:\ (Локальный диск)
+2025-12-13 18:59:51.601 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Начало сканирования директории: C:\
+2025-12-13 18:59:51.603 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Директория C:\ существует, начинаем сканирование
+2025-12-13 18:59:51.603 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\$Recycle.Bin
+2025-12-13 18:59:51.605 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\$Recycle.Bin
+2025-12-13 18:59:51.606 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Dev-Cpp
+2025-12-13 18:59:51.607 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Dev-Cpp
+2025-12-13 18:59:51.607 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Documents and Settings
+2025-12-13 18:59:51.608 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Documents and Settings
+2025-12-13 18:59:51.608 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\DumpStack.log.tmp
+2025-12-13 18:59:51.609 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\DumpStack.log.tmp - C:\DumpStack.log.tmp: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:59:51.610 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\DumpStack.log.tmp
+2025-12-13 18:59:51.610 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\for discord
+2025-12-13 18:59:51.611 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\for discord
+2025-12-13 18:59:51.611 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\hiberfil.sys
+2025-12-13 18:59:51.611 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\hiberfil.sys - C:\hiberfil.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:59:51.612 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\hiberfil.sys
+2025-12-13 18:59:51.612 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Intel
+2025-12-13 18:59:51.613 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Intel
+2025-12-13 18:59:51.613 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\MSOCache
+2025-12-13 18:59:51.613 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\MSOCache
+2025-12-13 18:59:51.614 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\pagefile.sys
+2025-12-13 18:59:51.614 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\pagefile.sys - C:\pagefile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:59:51.614 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\pagefile.sys
+2025-12-13 18:59:51.615 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\PerfLogs
+2025-12-13 18:59:51.615 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\PerfLogs
+2025-12-13 18:59:51.615 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files
+2025-12-13 18:59:51.616 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files
+2025-12-13 18:59:51.616 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Program Files (x86)
+2025-12-13 18:59:51.617 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Program Files (x86)
+2025-12-13 18:59:51.617 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\ProgramData
+2025-12-13 18:59:51.618 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\ProgramData
+2025-12-13 18:59:51.618 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Recovery
+2025-12-13 18:59:51.618 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Recovery
+2025-12-13 18:59:51.619 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\sqlite
+2025-12-13 18:59:51.619 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\sqlite
+2025-12-13 18:59:51.619 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\SQLiteLab
+2025-12-13 18:59:51.620 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\SQLiteLab
+2025-12-13 18:59:51.620 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\swapfile.sys
+2025-12-13 18:59:51.621 [SwingWorker-pool-4-thread-1] WARN  FileSystemScanner - Не удалось получить владельца файла: C:\swapfile.sys - C:\swapfile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:59:51.621 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\swapfile.sys
+2025-12-13 18:59:51.621 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\System Volume Information
+2025-12-13 18:59:51.622 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\System Volume Information
+2025-12-13 18:59:51.622 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Users
+2025-12-13 18:59:51.623 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Users
+2025-12-13 18:59:51.623 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:59:51.623 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:59:51.623 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:59:51.624 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:59:51.624 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Начало сканирования файла: C:\Windows
+2025-12-13 18:59:51.625 [SwingWorker-pool-4-thread-1] DEBUG FileSystemScanner - Сканирование файла завершено: C:\Windows
+2025-12-13 18:59:51.625 [SwingWorker-pool-4-thread-1] INFO  FileSystemScanner - Сканирование завершено. Успешно обработано: 22, с ошибками: 0, всего: 22
+2025-12-13 18:59:51.646 [AWT-EventQueue-0] DEBUG MainFrame - Загружено 22 элементов из папки C:\ (Локальный диск)
+2025-12-13 18:59:51.669 [AWT-EventQueue-0] INFO  MainFrame - Содержимое папки 'C:\ (Локальный диск)' успешно загружено (22 элементов)
+2025-12-13 18:59:53.164 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: ProgramData
+2025-12-13 18:59:53.164 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: ProgramData
+2025-12-13 18:59:53.164 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: ProgramData
+2025-12-13 18:59:53.165 [SwingWorker-pool-4-thread-2] INFO  FileSystemScanner - Получение статистики для директории: C:\ProgramData
+2025-12-13 18:59:53.166 [SwingWorker-pool-4-thread-2] DEBUG FileSystemScanner - Рекурсивный обход директории C:\ProgramData
+2025-12-13 18:59:53.206 [AWT-EventQueue-0] ERROR MainFrame - Ошибка при расчете статистики папки ProgramData: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\ProgramData\Application Data
+java.util.concurrent.ExecutionException: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\ProgramData\Application Data
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613) ~[?:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.done(MainFrame.java:428) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847) ~[?:?]
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857) ~[?:?]
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:310) ~[?:?]
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:242) ~[?:?]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\ProgramData\Application Data
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:87) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+Caused by: java.nio.file.AccessDeniedException: C:\ProgramData\Application Data
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:533) ~[?:?]
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:476) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.next(FileTreeWalker.java:373) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:83) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+2025-12-13 18:59:55.887 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: Recovery
+2025-12-13 18:59:55.888 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: Recovery
+2025-12-13 18:59:55.888 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: Recovery
+2025-12-13 18:59:55.889 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Получение статистики для директории: C:\Recovery
+2025-12-13 18:59:55.890 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - Рекурсивный обход директории C:\Recovery
+2025-12-13 18:59:55.891 [SwingWorker-pool-4-thread-3] INFO  FileSystemScanner - Статистика собрана. Файлов: 2, Папок: 1, Общий размер: 2957 байт, Недоступно: 0
+2025-12-13 18:59:55.892 [SwingWorker-pool-4-thread-3] DEBUG FileSystemScanner - DirectoryStats создан: размер=2957, файлы=2, папки=1
+2025-12-13 18:59:55.926 [AWT-EventQueue-0] DEBUG MainFrame - Статистика рассчитана: файлов=2, папок=1, размер=2957 байт
+2025-12-13 18:59:55.928 [AWT-EventQueue-0] DEBUG MainFrame - Информация о папке обновлена в интерфейсе
+2025-12-13 19:00:01.382 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: sqlite
+2025-12-13 19:00:01.383 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: sqlite
+2025-12-13 19:00:01.383 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: sqlite
+2025-12-13 19:00:01.384 [SwingWorker-pool-4-thread-4] INFO  FileSystemScanner - Получение статистики для директории: C:\sqlite
+2025-12-13 19:00:01.385 [SwingWorker-pool-4-thread-4] DEBUG FileSystemScanner - Рекурсивный обход директории C:\sqlite
+2025-12-13 19:00:01.386 [SwingWorker-pool-4-thread-4] INFO  FileSystemScanner - Статистика собрана. Файлов: 4, Папок: 0, Общий размер: 14670848 байт, Недоступно: 0
+2025-12-13 19:00:01.386 [SwingWorker-pool-4-thread-4] DEBUG FileSystemScanner - DirectoryStats создан: размер=14670848, файлы=4, папки=0
+2025-12-13 19:00:01.424 [AWT-EventQueue-0] DEBUG MainFrame - Статистика рассчитана: файлов=4, папок=0, размер=14670848 байт
+2025-12-13 19:00:01.426 [AWT-EventQueue-0] DEBUG MainFrame - Информация о папке обновлена в интерфейсе
+2025-12-13 19:00:03.350 [AWT-EventQueue-0] DEBUG MainFrame - Пользователь выбрал элемент: Users
+2025-12-13 19:00:03.351 [AWT-EventQueue-0] DEBUG MainFrame - Отображение информации о файле: Users
+2025-12-13 19:00:03.351 [AWT-EventQueue-0] DEBUG MainFrame - Запуск расчета статистики для папки: Users
+2025-12-13 19:00:03.352 [SwingWorker-pool-4-thread-5] INFO  FileSystemScanner - Получение статистики для директории: C:\Users
+2025-12-13 19:00:03.354 [SwingWorker-pool-4-thread-5] DEBUG FileSystemScanner - Рекурсивный обход директории C:\Users
+2025-12-13 19:00:04.214 [AWT-EventQueue-0] ERROR MainFrame - Ошибка при расчете статистики папки Users: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Users\Admin\AppData\Local\Application Data
+java.util.concurrent.ExecutionException: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Users\Admin\AppData\Local\Application Data
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613) ~[?:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.done(MainFrame.java:428) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847) ~[?:?]
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857) ~[?:?]
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:310) ~[?:?]
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:242) ~[?:?]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.io.UncheckedIOException: java.nio.file.AccessDeniedException: C:\Users\Admin\AppData\Local\Application Data
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:87) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+Caused by: java.nio.file.AccessDeniedException: C:\Users\Admin\AppData\Local\Application Data
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:533) ~[?:?]
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:476) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300) ~[?:?]
+	at java.base/java.nio.file.FileTreeWalker.next(FileTreeWalker.java:373) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:83) ~[?:?]
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1811) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169) ~[?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300) ~[?:?]
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:?]
+	at com.filesystem.analyzer.utils.FileSystemScanner.getDirectoryStats(FileSystemScanner.java:175) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:422) ~[main/:?]
+	at com.filesystem.analyzer.gui.MainFrame$4.doInBackground(MainFrame.java:418) ~[main/:?]
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[?:?]
+2025-12-13 19:00:10.701 [Thread-0] INFO  Main - Приложение завершает работу

@@ -1,0 +1,147 @@
+2025-12-13 18:00:07 [AWT-EventQueue-0] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования директории: C:\
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Директория C:\ существует, начинаем сканирование
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\$Recycle.Bin
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\$Recycle.Bin
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\Dev-Cpp
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\Dev-Cpp
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\Documents and Settings
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\Documents and Settings
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\DumpStack.log.tmp
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] WARN  com.filesystem.analyzer.utils.FileSystemScanner - Не удалось получить владельца файла: C:\DumpStack.log.tmp - C:\DumpStack.log.tmp: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\DumpStack.log.tmp
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\for discord
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\for discord
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\hiberfil.sys
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] WARN  com.filesystem.analyzer.utils.FileSystemScanner - Не удалось получить владельца файла: C:\hiberfil.sys - C:\hiberfil.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\hiberfil.sys
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\Intel
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\Intel
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\MSOCache
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\MSOCache
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\pagefile.sys
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] WARN  com.filesystem.analyzer.utils.FileSystemScanner - Не удалось получить владельца файла: C:\pagefile.sys - C:\pagefile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\pagefile.sys
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\PerfLogs
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\PerfLogs
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\Program Files
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\Program Files
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\Program Files (x86)
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\Program Files (x86)
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\ProgramData
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\ProgramData
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\Recovery
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\Recovery
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\sqlite
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\sqlite
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\SQLiteLab
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\SQLiteLab
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\swapfile.sys
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] WARN  com.filesystem.analyzer.utils.FileSystemScanner - Не удалось получить владельца файла: C:\swapfile.sys - C:\swapfile.sys: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\swapfile.sys
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\System Volume Information
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\System Volume Information
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\Users
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\Users
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.CAB
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\VS_EXPBSLN_x64_enu.MSI
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\Windows
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\Windows
+2025-12-13 18:00:11 [SwingWorker-pool-4-thread-1] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Сканирование завершено. Успешно обработано: 22, с ошибками: 0, всего: 22
+2025-12-13 18:00:15 [SwingWorker-pool-4-thread-2] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Получение статистики для директории: C:\
+2025-12-13 18:00:15 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Рекурсивный обход директории C:\
+2025-12-13 18:00:19 [SwingWorker-pool-4-thread-3] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Получение статистики для директории: C:\Dev-Cpp
+2025-12-13 18:00:19 [SwingWorker-pool-4-thread-3] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Рекурсивный обход директории C:\Dev-Cpp
+2025-12-13 18:00:19 [SwingWorker-pool-4-thread-3] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Статистика собрана. Файлов: 935, Папок: 42, Общий размер: 61697100 байт, Недоступно: 0
+2025-12-13 18:00:19 [SwingWorker-pool-4-thread-3] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - DirectoryStats создан: размер=61697100, файлы=935, папки=42
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования директории: C:\sqlite
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Директория C:\sqlite существует, начинаем сканирование
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\sqlite\sqldiff.exe
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\sqlite\sqldiff.exe
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\sqlite\sqlite3.exe
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\sqlite\sqlite3.exe
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\sqlite\sqlite3_analyzer.exe
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\sqlite\sqlite3_analyzer.exe
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: C:\sqlite\sqlite3_rsync.exe
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: C:\sqlite\sqlite3_rsync.exe
+2025-12-13 18:00:27 [SwingWorker-pool-4-thread-4] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Сканирование завершено. Успешно обработано: 4, с ошибками: 0, всего: 4
+2025-12-13 18:04:30 [AWT-EventQueue-0] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:04:38 [SwingWorker-pool-4-thread-1] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Получение статистики для директории: C:\
+2025-12-13 18:04:38 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Рекурсивный обход директории C:\
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования директории: D:\
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Директория D:\ существует, начинаем сканирование
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\$RECYCLE.BIN
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\$RECYCLE.BIN
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Battle.net
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Battle.net
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\crash_dota2.exe_20230913163149_1.dmp
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\crash_dota2.exe_20230913163149_1.dmp
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\crash_dota2.exe_20240707050557_1.dmp
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\crash_dota2.exe_20240707050557_1.dmp
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\crash_dota2.exe_20240707050905_1.dmp
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\crash_dota2.exe_20240707050905_1.dmp
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\demo
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\demo
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Games
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Games
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\GenshinImpact
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\GenshinImpact
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\laba 4
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\laba 4
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Riot Games
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Riot Games
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\System Volume Information
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\System Volume Information
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\TS 3
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\TS 3
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\WUDownloadCache
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\WUDownloadCache
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Лабораторная 5 Сайт
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Лабораторная 5 Сайт
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Лабораторная 5 Сайт.rar
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Лабораторная 5 Сайт.rar
+2025-12-13 18:04:42 [SwingWorker-pool-4-thread-2] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Сканирование завершено. Успешно обработано: 15, с ошибками: 0, всего: 15
+2025-12-13 18:04:43 [SwingWorker-pool-4-thread-3] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Получение статистики для директории: D:\GenshinImpact
+2025-12-13 18:04:43 [SwingWorker-pool-4-thread-3] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Рекурсивный обход директории D:\GenshinImpact
+2025-12-13 18:10:45 [AWT-EventQueue-0] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - FileSystemScanner инициализирован с пулом из 44 потоков
+2025-12-13 18:10:47 [SwingWorker-pool-4-thread-1] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Получение статистики для директории: C:\
+2025-12-13 18:10:47 [SwingWorker-pool-4-thread-1] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Рекурсивный обход директории C:\
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования директории: D:\
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Директория D:\ существует, начинаем сканирование
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\$RECYCLE.BIN
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\$RECYCLE.BIN
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Battle.net
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Battle.net
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\crash_dota2.exe_20230913163149_1.dmp
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\crash_dota2.exe_20230913163149_1.dmp
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\crash_dota2.exe_20240707050557_1.dmp
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\crash_dota2.exe_20240707050557_1.dmp
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\crash_dota2.exe_20240707050905_1.dmp
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\crash_dota2.exe_20240707050905_1.dmp
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\demo
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\demo
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Games
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Games
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\GenshinImpact
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\GenshinImpact
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\laba 4
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\laba 4
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Riot Games
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Riot Games
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\System Volume Information
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\System Volume Information
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\TS 3
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\TS 3
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\WUDownloadCache
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\WUDownloadCache
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Лабораторная 5 Сайт
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Лабораторная 5 Сайт
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Начало сканирования файла: D:\Лабораторная 5 Сайт.rar
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Сканирование файла завершено: D:\Лабораторная 5 Сайт.rar
+2025-12-13 18:10:50 [SwingWorker-pool-4-thread-2] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Сканирование завершено. Успешно обработано: 15, с ошибками: 0, всего: 15
+2025-12-13 18:10:52 [SwingWorker-pool-4-thread-3] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Получение статистики для директории: D:\Battle.net
+2025-12-13 18:10:52 [SwingWorker-pool-4-thread-3] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - Рекурсивный обход директории D:\Battle.net
+2025-12-13 18:10:53 [SwingWorker-pool-4-thread-3] INFO  com.filesystem.analyzer.utils.FileSystemScanner - Статистика собрана. Файлов: 6986, Папок: 391, Общий размер: 14498644861 байт, Недоступно: 0
+2025-12-13 18:10:53 [SwingWorker-pool-4-thread-3] DEBUG com.filesystem.analyzer.utils.FileSystemScanner - DirectoryStats создан: размер=14498644861, файлы=6986, папки=391
